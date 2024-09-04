@@ -4,22 +4,20 @@ import java.util.ArrayList;
 
 public class Market {
 
-  // private enum Resultado{ GANHOU, PERDEU};
+  private Produto produto;//cria produto padrão
+  ArrayList<Produto> compras = new ArrayList<Produto>();//cria lista de compras
 
-  private Produto produto;
-  ArrayList<Produto> compras = new ArrayList<Produto>();
-
-  public void addProduto(Produto produto, Item item, int posicao) {
-    if (produto.getquantidadeEstoque() != 0) {
-      if (item.getQuantidadeItem() > produto.getquantidadeEstoque()) {
-        item.setQuantidadeItem(produto.getquantidadeEstoque());
+  public void addProduto(Produto produto, Item item, int posicao) //adiciona produto na lista de compras
+  {
+    if (produto.getquantidadeEstoque() != 0 && item.getQuantidadeItem() >= 0) //verifica se o produto está em estoque e se a quantidade desejada é maior que a quantidade em estoque
+    {
+      if (item.getQuantidadeItem() >= produto.getquantidadeEstoque()) {
+        this.produto = new Produto(produto.getpreco(), produto.getquantidadeEstoque(), produto.getdescricao());
       } else {
-        item.setQuantidadeItem(item.getQuantidadeItem());
+        this.produto = new Produto(produto.getpreco(), item.getQuantidadeItem(), produto.getdescricao());
       }
 
-      this.produto = new Produto(produto.getpreco(), item.getQuantidadeItem(), produto.getdescricao());
-
-      compras.add(posicao, produto);
+      compras.add(posicao, this.produto);
     }
   }
 
@@ -28,7 +26,7 @@ public class Market {
     double Total = 0;
     int Total_itens = 0;
     StringBuilder ret = new StringBuilder("");
-    ret.append("Cliente: " + cliente.getNome());
+    ret.append("Cliente: " + cliente.getNome() + " CPF: ");
     ret.append(cliente.getCPF());
     ret.append("\nProdutos\n  ");
     for (Produto i : compras) {
@@ -52,11 +50,13 @@ public class Market {
     return ret.toString();
   }
 
-  public void ClearListaVenda() {
+  public void ClearListaVenda() //limpa lista de compras
+  {
     compras.clear();
   }
 
-  public void Venda(Produto p) {
+  public void Venda(Produto p) //verifica se o produto da lista de compras é o mesmo de p (presente no 'BD') e realiza a compra de acordo com a quantidade desejada
+  {
     for (Produto c : compras) {
       if (c.getdescricao() == p.getdescricao()) {
         p.compra(c.getquantidadeEstoque());
@@ -64,6 +64,8 @@ public class Market {
     }
   }
 
+
+  //main padrão de testes
   public static void main(String[] args) {
     Market mk = new Market();
     Produto p1 = new Produto(10, 5, Descricao.ARROZ);
@@ -87,6 +89,5 @@ public class Market {
     mk.Venda(p3);
     mk.Venda(p4);
     mk.Venda(p5);
-
   }
 }
