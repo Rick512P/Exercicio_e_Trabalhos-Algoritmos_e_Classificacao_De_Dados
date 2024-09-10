@@ -17,7 +17,7 @@ public class MarketApp {
     TipoPagamento tp = TipoPagamento.NENHUM;
 
     Cliente cliente = new Cliente();
-    Market mk = new Market();
+    Pedido Pe = new Pedido();
 
     //Definição de Scanner
     Scanner inputop = new Scanner(System.in);
@@ -63,15 +63,15 @@ public class MarketApp {
                     System.out.println("\nDigite a quantidade do produto: ");
                     int quantidade = inputQuantidade.nextInt();
                     if (produto.equalsIgnoreCase(p1.getdescricao().name())) {
-                      mk.addProduto(p1, new Item(quantidade), contador);
+                      Pe.addItem(new Item(quantidade, p1), contador);
                     } else if (produto.equalsIgnoreCase(p2.getdescricao().name())) {
-                      mk.addProduto(p2, new Item(quantidade), contador);
+                      Pe.addItem(new Item(quantidade, p2), contador);
                     } else if (produto.equalsIgnoreCase(p3.getdescricao().name())) {
-                      mk.addProduto(p3, new Item(quantidade), contador);
+                      Pe.addItem(new Item(quantidade, p3), contador);
                     } else if (produto.equalsIgnoreCase(p4.getdescricao().name())) {
-                      mk.addProduto(p4, new Item(quantidade), contador);
+                      Pe.addItem(new Item(quantidade, p4), contador);
                     } else if (produto.equalsIgnoreCase(p5.getdescricao().name())) {
-                      mk.addProduto(p5, new Item(quantidade), contador);
+                      Pe.addItem(new Item(quantidade, p5), contador);
                     } else {
                       System.out.println("Produto Não Encontrado");
                       System.out.println("\n-----------------------------------\n\n");
@@ -98,15 +98,10 @@ public class MarketApp {
           // venda/finalização da compra
           if (tp != TipoPagamento.NENHUM) {
             System.out.println("\n---------------------------------------------------------------------\n");
-            System.out.println(mk.toString(tp, cliente));
+            System.out.println(Pe.toString(tp, cliente));
             System.out.println("\n---------------------------------------------------------------------\n\n");
-            mk.Venda(p1);
-            mk.Venda(p2);
-            mk.Venda(p3);
-            mk.Venda(p4);
-            mk.Venda(p5);
-
-            mk.ClearListaVenda();
+            
+            Pe.ClearListaVenda();
             contador = 0;
             tp = TipoPagamento.NENHUM;
           } else {
