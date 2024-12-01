@@ -13,7 +13,7 @@ import jav.RadixSort;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class TP1 {
     public static void main(String[] args) {
         int x = 10;
         Scanner scanner = new Scanner(System.in);
