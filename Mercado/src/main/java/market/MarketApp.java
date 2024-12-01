@@ -118,5 +118,14 @@ public class MarketApp {
           break;
       }
     } while (opcao != 0);
+  
+    inputop.close();
+    inputlistaop.close();
+    inputName.close();
+    inputCPF.close();
+    inputTipoPagamento.close();
+    inputQuantidade.close();
+    inputProduto.close();
+  
   }
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Pedido {
 
-  private Item item;// cria produto padrão
+  //private Item item;// cria produto padrão
   ArrayList<Item> compras = new ArrayList<Item>();// cria lista de compras
 
   public void addItem(Item item, int posicao) // adiciona produto na lista de compras
