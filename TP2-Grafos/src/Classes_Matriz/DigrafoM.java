@@ -1,11 +1,11 @@
-package Classes;
+package Classes_Matriz;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Digrafo extends Grafo {
+public class DigrafoM extends GrafoM {
 
-    public Digrafo(int numVertices, boolean ponderado) {
+    public DigrafoM(int numVertices, boolean ponderado) {
         super(numVertices, ponderado);
     }
 
@@ -35,19 +35,19 @@ public class Digrafo extends Grafo {
     public static void main(String[] args) {
         
         System.out.println("\nDigrafo Ponderado:");
-        Digrafo digrafo = new Digrafo(5, true); // Digrafo ponderado com 5 vértices
+        DigrafoM digrafo = new DigrafoM(5, true); // Digrafo ponderado com 5 vértices
         digrafo.adicionarAresta(0, 1, 10);
         digrafo.adicionarAresta(1, 2, 1);
         digrafo.adicionarAresta(2, 3, 1);
         digrafo.adicionarAresta(3, 4, 1);
-        digrafo.mostrarGrafo();
+        digrafo.mostrarGrafoM();
 
         System.out.println("\nDigrafo Não Ponderado:");
-        Digrafo digrafo2 = new Digrafo(5, false); // Digrafo não ponderado com 5 vértices
+        DigrafoM digrafo2 = new DigrafoM(5, false); // Digrafo não ponderado com 5 vértices
         digrafo2.adicionarAresta(0, 1);
         digrafo2.adicionarAresta(1, 2);
         digrafo2.adicionarAresta(2, 3);
         digrafo2.adicionarAresta(3, 4);
-        digrafo2.mostrarGrafo();
+        digrafo2.mostrarGrafoM();
     }
 }

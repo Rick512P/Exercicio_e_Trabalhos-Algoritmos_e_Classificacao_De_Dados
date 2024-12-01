@@ -1,13 +1,13 @@
-package Classes;
+package Classes_Matriz;
 
 import java.util.Arrays;
 
-public class Grafo {
+public class GrafoM {
     protected int[][] matrizAdjacencia;
     protected int numVertices;
     protected boolean ponderado;
 
-    public Grafo(int numVertices, boolean ponderado) {
+    public GrafoM(int numVertices, boolean ponderado) {
         this.numVertices = numVertices;
         this.ponderado = ponderado;
         this.matrizAdjacencia = new int[numVertices][numVertices];
@@ -42,7 +42,7 @@ public class Grafo {
         matrizAdjacencia[destino][origem] = peso; // Grafo não direcionado
     }
     
-    public void mostrarGrafo() {
+    public void mostrarGrafoM() {
         System.out.println("\nMatriz de Adjacência do Grafo:");
         for (int[] row : matrizAdjacencia) {
             System.out.println(Arrays.toString(row));
@@ -51,19 +51,19 @@ public class Grafo {
 
     public static void main(String[] args) {
         System.out.println("\nGrafo Ponderado:");
-        Grafo grafo = new Grafo(5, true); // Grafo ponderado com 5 vértices
+        GrafoM grafo = new GrafoM(5, true); // Grafo ponderado com 5 vértices
         grafo.adicionarAresta(0, 1, 10);
         grafo.adicionarAresta(1, 2, 1);
         grafo.adicionarAresta(2, 3, 1);
         grafo.adicionarAresta(3, 4, 1);
-        grafo.mostrarGrafo();
+        grafo.mostrarGrafoM();
 
         System.out.println("\nGrafo Não Ponderado:");
-        Grafo grafo2 = new Grafo(5, false); // Grafo não ponderado com 5 vértices
+        GrafoM grafo2 = new GrafoM(5, false); // Grafo não ponderado com 5 vértices
         grafo2.adicionarAresta(0, 1);
         grafo2.adicionarAresta(1, 2);
         grafo2.adicionarAresta(2, 3);
         grafo2.adicionarAresta(3, 4);
-        grafo2.mostrarGrafo();
+        grafo2.mostrarGrafoM();
     }
 }
