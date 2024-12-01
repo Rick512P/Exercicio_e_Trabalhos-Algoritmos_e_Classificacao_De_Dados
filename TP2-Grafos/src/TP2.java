@@ -11,6 +11,7 @@ public class TP2 {
         DigrafoM.main(args);
         BFSM.main(args);
         DFSM.main(args);
+        Ordenacao_TopologicaM.main(args);
     }
 }
 
