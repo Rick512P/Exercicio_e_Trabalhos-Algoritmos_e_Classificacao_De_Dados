@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\Users\kanji\OneDrive\Área de Trabalho\Trabalhos\GitClone\Trabalho-Ordenacao\jav\.metadata\.plugins\org.eclipse.jdt.core
