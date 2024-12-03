@@ -1,6 +1,7 @@
 import Classes_Matriz.*;
 
 
+
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Random;
@@ -25,6 +26,7 @@ public class TP2 {
             System.out.println("9. Caminho Minimo - Dijkstra");
             System.out.println("a. Caminho Minimo - Floyd-Warshall");
             System.out.println("b. Fluxo Maximo - Ford-Fulkerson");
+            System.out.println("c. Comparar desempenho dos algoritmos em 15 grafos");
 
             System.out.println("0. Sair");
             System.out.print("Escolha uma opção: ");
@@ -63,6 +65,10 @@ public class TP2 {
                     break;
                 case 'b':
                     FordFulkerson.main(args);
+                    break;
+                case 'c':
+                    System.out.println("Executando testes de desempenho em 15 grafos...");
+                    ComparacaoDesempenho.main(null);
                     break;
 
                 case 0:
