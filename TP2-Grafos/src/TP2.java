@@ -26,18 +26,19 @@ public class TP2 {
 
             System.out.println("\n===== Implementações em Lista de Adjacência =====");
             System.out.println("c. GrafoL");
-            System.out.println("d. Caminho em Largura (BFS - Lista)");
-            System.out.println("e. Caminho em Profundidade (DFS - Lista)");
-            System.out.println("f. Ordenacao Topológica (Lista)");
-            System.out.println("g. Árvore Geradora Mínima (Kruskal - Lista)");
-            System.out.println("h. Árvore Geradora Mínima (Prim - Lista)");
-            System.out.println("i. Caminho Minimo - Bellman-Ford (Lista)");
-            System.out.println("j. Caminho Minimo - Dijkstra (Lista)");
-            System.out.println("k. Caminho Minimo - Floyd-Warshall (Lista)");
-            System.out.println("l. Fluxo Máximo - Ford-Fulkerson (Lista)");
+            System.out.println("d. GrafoL");
+            System.out.println("e. Caminho em Largura (BFS - Lista)");
+            System.out.println("f. Caminho em Profundidade (DFS - Lista)");
+            System.out.println("g. Ordenacao Topológica (Lista)");
+            System.out.println("h. Árvore Geradora Mínima (Kruskal - Lista)");
+            System.out.println("i. Árvore Geradora Mínima (Prim - Lista)");
+            System.out.println("j. Caminho Minimo - Bellman-Ford (Lista)");
+            System.out.println("k. Caminho Minimo - Dijkstra (Lista)");
+            System.out.println("l. Caminho Minimo - Floyd-Warshall (Lista)");
+            System.out.println("m. Fluxo Máximo - Ford-Fulkerson (Lista)");
 
-            System.out.println("\nm. Comparar desempenho dos algoritmos de Caminho Minimo (BellMan e Dijkstra) para LE");
-            System.out.println("\nn. Comparar desempenho dos algoritmos de Caminho Minimo (BellMan e Dijkstra) para Matriz");
+            System.out.println("\nn. Comparar desempenho dos algoritmos de Caminho Minimo (BellMan e Dijkstra) para LE");
+            System.out.println("\no. Comparar desempenho dos algoritmos de Caminho Minimo (BellMan e Dijkstra) para Matriz");
             System.out.println("0. Sair");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.next().charAt(0);
@@ -83,39 +84,42 @@ public class TP2 {
                     GrafoL.main(args); // Exemplo básico de GrafoL
                     break;
                 case 'd':
-                    BFSL.main(args); // BFS - Lista
+                    DigrafoL.main(args); // Exemplo básico de GrafoL
                     break;
                 case 'e':
-                    DFSL.main(args); // DFS - Lista
+                    BFSL.main(args); // BFS - Lista
                     break;
                 case 'f':
-                    Ordenacao_TopologicaL.main(args); // Ordenação Topológica - Lista
+                    DFSL.main(args); // DFS - Lista
                     break;
                 case 'g':
-                    KruskalL.main(args); // Kruskal - Lista
+                    Ordenacao_TopologicaL.main(args); // Ordenação Topológica - Lista
                     break;
                 case 'h':
-                    PrimL.main(args); // Prim - Lista
+                    KruskalL.main(args); // Kruskal - Lista
                     break;
                 case 'i':
-                    BellmanFordL.main(args); // Bellman-Ford - Lista
+                    PrimL.main(args); // Prim - Lista
                     break;
                 case 'j':
-                    DijkstraL.main(args); // Dijkstra - Lista
+                    BellmanFordL.main(args); // Bellman-Ford - Lista
                     break;
                 case 'k':
-                    FloydWarshallL.main(args); // Floyd-Warshall - Lista
+                    DijkstraL.main(args); // Dijkstra - Lista
                     break;
                 case 'l':
+                    FloydWarshallL.main(args); // Floyd-Warshall - Lista
+                    break;
+                case 'm':
                     FordFulkersonL.main(args); // Ford-Fulkerson - Lista
                     break;
 
                 // Comparação de Desempenho
-                case 'm':
+                case 'n':
                     System.out.println("Executando testes de desempenho...");
                     TempoExecucaoArquivos.main(null);
                     break;
-                case 'n':
+                case 'o':
                     System.out.println("Executando testes de desempenho...");
                     TempoExecucaoM.main(null);
                     break;
