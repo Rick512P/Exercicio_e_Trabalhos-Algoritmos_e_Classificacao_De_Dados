@@ -7,19 +7,27 @@ import java.util.*;
 public class ComparacaoDesempenho {
 
     // Função para criar grafos variados
-    public static GrafoM criarGrafo(int vertices, boolean ponderado, boolean direcionado) {
-        GrafoM grafo;
-        if (direcionado) {
-            grafo = new DigrafoM(vertices, ponderado);
-        } else {
-            grafo = new GrafoM(vertices, ponderado);
+    public static GrafoM PreencheGrafo(GrafoM grafo) {
+        
+        Random random = new Random();
+        for (int i = 0; i < grafo.numVertices; i++) {
+            for (int j = i + 1; j < grafo.numVertices; j++) {
+                if (random.nextBoolean()) { // Adiciona aresta com 50% de chance
+                    int peso = random.nextInt(20) + 1;
+                    grafo.adicionarAresta(i, j, peso);
+                }
+            }
         }
 
+        return grafo;
+    }
+
+    public static DigrafoM PreencheGrafo(DigrafoM grafo) {
         Random random = new Random();
-        for (int i = 0; i < vertices; i++) {
-            for (int j = i + 1; j < vertices; j++) {
+        for (int i = 0; i < grafo.numVertices; i++) {
+            for (int j = i + 1; j < grafo.numVertices; j++) {
                 if (random.nextBoolean()) { // Adiciona aresta com 50% de chance
-                    int peso = ponderado ? random.nextInt(20) + 1 : 1;
+                    int peso = random.nextInt(20) + 1;
                     grafo.adicionarAresta(i, j, peso);
                 }
             }
@@ -67,7 +75,11 @@ public class ComparacaoDesempenho {
         }
 
         // Exibir tempos
-        tempos.forEach((algoritmo, tempo) -> System.out.println(algoritmo + ": " + tempo + " ms"));
+        //tempos.forEach((algoritmo, tempo) -> System.out.println(algoritmo + ": " + tempo/1000000000 + " s"));
+        tempos.forEach((algoritmo, tempo) -> 
+            System.out.println(algoritmo + ": " + String.format("%.6f s", tempo / 1_000_000_000.0))
+        );
+
         System.out.println("------------------------------------------");
     }
 
@@ -76,7 +88,7 @@ public class ComparacaoDesempenho {
         Instant inicio = Instant.now();
         runnable.run();
         Instant fim = Instant.now();
-        return Duration.between(inicio, fim).toMillis();
+        return Duration.between(inicio, fim).toNanos();
     }
 
     // Função principal para criar 15 grafos e executar os testes
@@ -92,10 +104,22 @@ public class ComparacaoDesempenho {
         for (int tamanho : tamanhos) {
             for (boolean isPonderado : ponderado) {
                 for (boolean isDirecionado : direcionado) {
-                    GrafoM grafo = criarGrafo(tamanho, isPonderado, isDirecionado);
-                    System.out.printf("Grafo: Tamanho %d, Ponderado %b, Direcionado %b%n",
-                            tamanho, isPonderado, isDirecionado);
-                    executarTestesPorGrafo(grafo, execucoes);
+                    if (isDirecionado == true){
+                        DigrafoM grafo = new DigrafoM(tamanho, isPonderado);
+                        
+                        grafo = PreencheGrafo(grafo);
+                        System.out.printf("Digrafo: Tamanho %d, Ponderado %b, Direcionado %b%n",
+                                tamanho, isPonderado, isDirecionado);
+                        executarTestesPorGrafo(grafo, execucoes);
+                    }
+                    else{
+                        GrafoM grafo = new GrafoM(tamanho, isPonderado);
+                        
+                        grafo = PreencheGrafo(grafo);
+                        System.out.printf("Grafo: Tamanho %d, Ponderado %b, Direcionado %b%n",
+                                tamanho, isPonderado, isDirecionado);
+                        executarTestesPorGrafo(grafo, execucoes);
+                    }
                 }
             }
         }

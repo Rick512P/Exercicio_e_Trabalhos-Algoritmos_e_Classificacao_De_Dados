@@ -90,7 +90,7 @@ public class TP1 {
             } else if (type.equals("descending")) {
                 QuickSortDesc.quickSort(arrCopy, 0, arrCopy.length - 1);
             }
-            bubbleSortTotalTime += testSortingAlgorithm("BubbleSort", arrCopy.clone());
+            //bubbleSortTotalTime += testSortingAlgorithm("BubbleSort", arrCopy.clone());
             insertionSortTotalTime += testSortingAlgorithm("InsertionSort", arrCopy.clone());
             selectionSortTotalTime += testSortingAlgorithm("SelectionSort", arrCopy.clone());
             shellSortTotalTime += testSortingAlgorithm("ShellSort", arrCopy.clone());
