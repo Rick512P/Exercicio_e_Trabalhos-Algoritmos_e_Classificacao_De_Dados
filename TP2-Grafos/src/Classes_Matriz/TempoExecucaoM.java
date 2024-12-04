@@ -20,6 +20,7 @@ public class TempoExecucaoM {
             System.out.println("\n==============================================");
             System.out.println("Lendo arquivo: " + arquivo.getName());
             GrafoM grafo = lerGrafoDeArquivo(arquivo);
+            
 
             if (grafo == null) {
                 System.out.println("Erro ao ler o arquivo: " + arquivo.getName());
@@ -36,7 +37,8 @@ public class TempoExecucaoM {
             boolean cicloNegativoDetectado = false;
 
             for (int i = 1; i <= 10; i++) {
-                BellmanFordM bellmanFord = new BellmanFordM(grafo);
+                BellmanFordM bellmanFord = new BellmanFordM(grafo.numVertices, grafo.ponderado);
+                bellmanFord.atribui(grafo);
                 try {
                     long inicio = System.nanoTime();
                     bellmanFord.calcularCaminhosMinimos(fonte);

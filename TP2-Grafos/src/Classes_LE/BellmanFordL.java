@@ -3,11 +3,25 @@ package Classes_LE;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BellmanFordL {
+import Classes_LE.GrafoL.Aresta;
+
+public class BellmanFordL extends GrafoL {
     private GrafoL grafo;
 
-    public BellmanFordL(GrafoL grafo) {
+    public BellmanFordL (int numVertices, boolean ponderado){
+        super(numVertices, ponderado);
+    }
+
+    public void atribui(GrafoL grafo) {
         this.grafo = grafo;
+    }
+
+    @Override
+    public void adicionarAresta(int origem, int destino, int peso) {
+        if (origem < 0 || origem >= numVertices || destino < 0 || destino >= numVertices) {
+            throw new IllegalArgumentException("Vértices inválidos.");
+        }
+        listaAdjacencia.get(origem).add(new Aresta(origem, destino, peso));
     }
 
     public int[] calcularCaminhoMinimo(int origem) {
@@ -58,17 +72,17 @@ public class BellmanFordL {
     }
 
     public static void main(String[] args) {
-        GrafoL grafo = new GrafoL(5, true);
-        grafo.adicionarAresta(0, 1, -1);
-        grafo.adicionarAresta(0, 2, 4);
-        grafo.adicionarAresta(1, 2, 3);
-        grafo.adicionarAresta(1, 3, 2);
-        grafo.adicionarAresta(1, 4, 2);
-        grafo.adicionarAresta(3, 2, 5);
-        grafo.adicionarAresta(3, 1, 1);
-        grafo.adicionarAresta(4, 3, -3);
+        BellmanFordL bellmanFord = new BellmanFordL(5, true);
+        bellmanFord.adicionarAresta(0, 1, -1);
+        bellmanFord.adicionarAresta(0, 2, 4);
+        bellmanFord.adicionarAresta(1, 2, 3);
+        bellmanFord.adicionarAresta(1, 3, 2);
+        bellmanFord.adicionarAresta(1, 4, 2);
+        bellmanFord.adicionarAresta(3, 2, 5);
+        bellmanFord.adicionarAresta(3, 1, 1);
+        bellmanFord.adicionarAresta(4, 3, -3);
 
-        BellmanFordL bellmanFord = new BellmanFordL(grafo);
+        bellmanFord.atribui(bellmanFord);
         int[] distancias = bellmanFord.calcularCaminhoMinimo(0);
         System.out.println("Distâncias a partir do vértice 0:");
         for (int i = 0; i < distancias.length; i++) {

@@ -1,12 +1,26 @@
 package Classes_Matriz;
 
+import java.beans.beancontext.BeanContext;
 import java.util.Arrays;
 
-public class BellmanFordM {
+public class BellmanFordM extends GrafoM{
     private GrafoM grafo;
 
-    public BellmanFordM(GrafoM grafo) {
+    public BellmanFordM(int numVertices, boolean ponderadoo) {
+        super(numVertices, ponderadoo);
+    }
+
+    public void atribui(GrafoM grafo) {
         this.grafo = grafo;
+    }
+
+    @Override
+    public void adicionarAresta(int origem, int destino, int peso) {
+        if (origem < 0 || origem >= numVertices || destino < 0 || destino >= numVertices) {
+            throw new IllegalArgumentException("Índices de vértices inválidos.");
+        }
+
+        matrizAdjacencia[origem][destino] = peso;
     }
 
     public int[] calcularCaminhosMinimos(int origem) {
@@ -49,21 +63,22 @@ public class BellmanFordM {
 
     public static void main(String[] args) {
         // Exemplo de grafo ponderado com pesos negativos
-        GrafoM grafo = new GrafoM(5, true);
-        grafo.adicionarAresta(0, 1, -1);
-        grafo.adicionarAresta(0, 2, 4);
-        grafo.adicionarAresta(1, 2, 3);
-        grafo.adicionarAresta(1, 3, 2);
-        grafo.adicionarAresta(1, 4, 2);
-        grafo.adicionarAresta(3, 2, 5);
-        grafo.adicionarAresta(3, 1, 1);
-        grafo.adicionarAresta(4, 3, -3);
+        BellmanFordM bellmanFordM = new BellmanFordM(5, true);
 
-        grafo.mostrarGrafoM();
+        bellmanFordM.adicionarAresta(0, 1, -1);
+        bellmanFordM.adicionarAresta(0, 2, 4);
+        bellmanFordM.adicionarAresta(1, 2, 3);
+        bellmanFordM.adicionarAresta(1, 3, 2);
+        bellmanFordM.adicionarAresta(1, 4, 2);
+        bellmanFordM.adicionarAresta(3, 2, 5);
+        bellmanFordM.adicionarAresta(3, 1, 1);
+        bellmanFordM.adicionarAresta(4, 3, -3);
 
-        BellmanFordM bellmanFord = new BellmanFordM(grafo);
+        bellmanFordM.mostrarGrafoM();
+
+        bellmanFordM.atribui(bellmanFordM);
         try {
-            int[] distancias = bellmanFord.calcularCaminhosMinimos(0);
+            int[] distancias = bellmanFordM.calcularCaminhosMinimos(0);
 
             System.out.println("\nDistâncias mínimas a partir do vértice 0:");
             for (int i = 0; i < distancias.length; i++) {

@@ -2,11 +2,25 @@ package Classes_LE;
 
 import java.util.Arrays;
 
-public class FloydWarshallL {
+import Classes_LE.GrafoL.Aresta;
+
+public class FloydWarshallL extends GrafoL{
     private GrafoL grafo;
 
-    public FloydWarshallL(GrafoL grafo) {
+    public FloydWarshallL(int numVertices, boolean ponderado) {
+        super(numVertices, ponderado);
+    }
+
+    public void atribui(GrafoL grafo){
         this.grafo = grafo;
+    }
+
+    @Override
+    public void adicionarAresta(int origem, int destino, int peso) {
+        if (origem < 0 || origem >= numVertices || destino < 0 || destino >= numVertices) {
+            throw new IllegalArgumentException("Vértices inválidos.");
+        }
+        listaAdjacencia.get(origem).add(new Aresta(origem, destino, peso));
     }
 
     public int[][] calcularCaminhosMinimos() {
@@ -51,14 +65,14 @@ public class FloydWarshallL {
     }
 
     public static void main(String[] args) {
-        GrafoL grafo = new GrafoL(4, true);
-        grafo.adicionarAresta(0, 1, 3);
-        grafo.adicionarAresta(0, 2, 10);
-        grafo.adicionarAresta(1, 2, 2);
-        grafo.adicionarAresta(1, 3, 8);
-        grafo.adicionarAresta(2, 3, -5);
+        FloydWarshallL floydWarshall = new FloydWarshallL(4, true);
+        floydWarshall.adicionarAresta(0, 1, 3);
+        floydWarshall.adicionarAresta(0, 2, 10);
+        floydWarshall.adicionarAresta(1, 2, 2);
+        floydWarshall.adicionarAresta(1, 3, 8);
+        floydWarshall.adicionarAresta(2, 3, -5);
 
-        FloydWarshallL floydWarshall = new FloydWarshallL(grafo);
+        floydWarshall.atribui(floydWarshall);
         try {
             int[][] distancias = floydWarshall.calcularCaminhosMinimos();
             System.out.println("Matriz de distâncias mínimas:");
