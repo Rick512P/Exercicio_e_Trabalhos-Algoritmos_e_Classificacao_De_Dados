@@ -26,6 +26,8 @@ public class BellmanFordL {
                 for (GrafoL.Aresta aresta : grafo.listaAdjacencia.get(u)) {
                     int v = aresta.destino;
                     int peso = aresta.peso;
+
+                    // Verifica se é possível relaxar a aresta
                     if (distancias[u] != INFINITO && distancias[u] + peso < distancias[v]) {
                         distancias[v] = distancias[u] + peso;
                     }
@@ -34,14 +36,22 @@ public class BellmanFordL {
         }
 
         // Verifica ciclos de peso negativo
+        boolean cicloNegativoDetectado = false;
         for (int u = 0; u < grafo.numVertices; u++) {
             for (GrafoL.Aresta aresta : grafo.listaAdjacencia.get(u)) {
                 int v = aresta.destino;
                 int peso = aresta.peso;
+
+                // Se ainda houver uma aresta que pode ser relaxada, há um ciclo negativo
                 if (distancias[u] != INFINITO && distancias[u] + peso < distancias[v]) {
-                    throw new IllegalStateException("O grafo contém ciclos de peso negativo.");
+                    cicloNegativoDetectado = true;
+                    System.out.println("Ciclo de peso negativo detectado a partir do vértice " + u + " para " + v);
                 }
             }
+        }
+
+        if (cicloNegativoDetectado) {
+            System.out.println("Aviso: O grafo contém ciclos de peso negativo, os resultados podem não ser válidos.");
         }
 
         return distancias;
@@ -59,15 +69,10 @@ public class BellmanFordL {
         grafo.adicionarAresta(4, 3, -3);
 
         BellmanFordL bellmanFord = new BellmanFordL(grafo);
-        try {
-            int[] distancias = bellmanFord.calcularCaminhoMinimo(0);
-            System.out.println("Distâncias a partir do vértice 0:");
-            for (int i = 0; i < distancias.length; i++) {
-                System.out.println("Vértice " + i + ": " + distancias[i]);
-            }
-        } catch (IllegalStateException e) {
-            System.out.println(e.getMessage());
+        int[] distancias = bellmanFord.calcularCaminhoMinimo(0);
+        System.out.println("Distâncias a partir do vértice 0:");
+        for (int i = 0; i < distancias.length; i++) {
+            System.out.println("Vértice " + i + ": " + (distancias[i] == Integer.MAX_VALUE ? "INFINITO" : distancias[i]));
         }
     }
 }
-

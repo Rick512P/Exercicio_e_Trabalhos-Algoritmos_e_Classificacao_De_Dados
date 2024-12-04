@@ -36,7 +36,8 @@ public class TP2 {
             System.out.println("k. Caminho Minimo - Floyd-Warshall (Lista)");
             System.out.println("l. Fluxo Máximo - Ford-Fulkerson (Lista)");
 
-            System.out.println("\nm. Comparar desempenho dos algoritmos em 15 grafos");
+            System.out.println("\nm. Comparar desempenho dos algoritmos de Caminho Minimo (BellMan e Dijkstra) para LE");
+            System.out.println("\nn. Comparar desempenho dos algoritmos de Caminho Minimo (BellMan e Dijkstra) para Matriz");
             System.out.println("0. Sair");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.next().charAt(0);
@@ -65,10 +66,10 @@ public class TP2 {
                     ArvoreGM_Prim.main(args);
                     break;
                 case '8':
-                    BellmanFord.main(args); // Matriz
+                    BellmanFordM.main(args); // Matriz
                     break;
                 case '9':
-                    Dijkstra.main(args); // Matriz
+                    DijkstraM.main(args); // Matriz
                     break;
                 case 'a':
                     FloydWarshall.main(args); // Matriz
@@ -111,10 +112,13 @@ public class TP2 {
 
                 // Comparação de Desempenho
                 case 'm':
-                    System.out.println("Executando testes de desempenho em 15 grafos...");
-                    ComparacaoDesempenho.main(null);
+                    System.out.println("Executando testes de desempenho...");
+                    TempoExecucaoArquivos.main(null);
                     break;
-
+                case 'n':
+                    System.out.println("Executando testes de desempenho...");
+                    TempoExecucaoM.main(null);
+                    break;
                 // Sair
                 case '0':
                     System.out.println("Saindo...");
