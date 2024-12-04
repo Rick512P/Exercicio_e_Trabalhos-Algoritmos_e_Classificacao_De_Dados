@@ -34,7 +34,8 @@ public class TempoExecucaoArquivos {
     
             // Tentativa de execução do Bellman-Ford
             for (int i = 1; i <= 10; i++) {
-                BellmanFordL bellmanFord = new BellmanFordL(grafo);
+                BellmanFordL bellmanFord = new BellmanFordL(grafo.numVertices, grafo.ponderado);
+                bellmanFord.atribui(grafo);
                 try {
                     long inicio = System.nanoTime();
                     bellmanFord.calcularCaminhoMinimo(fonte);
