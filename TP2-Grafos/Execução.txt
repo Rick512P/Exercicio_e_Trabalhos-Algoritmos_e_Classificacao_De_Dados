@@ -1,0 +1,2 @@
+javac -d bin src\Classes_LE\*.java src\Classes_Matriz\*.java src\*.java
+java -cp bin TP2
