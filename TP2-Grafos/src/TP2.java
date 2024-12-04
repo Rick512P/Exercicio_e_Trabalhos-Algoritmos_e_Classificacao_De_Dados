@@ -26,7 +26,7 @@ public class TP2 {
 
             System.out.println("\n===== Implementações em Lista de Adjacência =====");
             System.out.println("c. GrafoL");
-            System.out.println("d. GrafoL");
+            System.out.println("d. DigrafoL");
             System.out.println("e. Caminho em Largura (BFS - Lista)");
             System.out.println("f. Caminho em Profundidade (DFS - Lista)");
             System.out.println("g. Ordenacao Topológica (Lista)");
@@ -73,7 +73,7 @@ public class TP2 {
                     DijkstraM.main(args); // Matriz
                     break;
                 case 'a':
-                    FloydWarshall.main(args); // Matriz
+                    FloydWarshallM.main(args); // Matriz
                     break;
                 case 'b':
                     FordFulkerson.main(args); // Matriz

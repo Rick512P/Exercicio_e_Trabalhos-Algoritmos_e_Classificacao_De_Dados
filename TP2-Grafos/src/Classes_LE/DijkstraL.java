@@ -47,24 +47,38 @@ public class DijkstraL {
     }
 
     public static void main(String[] args) {
-        GrafoL grafo = new GrafoL(5, true);
-        grafo.adicionarAresta(0, 1, 10);
-        grafo.adicionarAresta(0, 4, 5);
-        grafo.adicionarAresta(1, 2, 1);
-        grafo.adicionarAresta(1, 4, 2);
-        grafo.adicionarAresta(2, 3, 4);
-        grafo.adicionarAresta(3, 0, 7);
-        grafo.adicionarAresta(3, 2, 6);
-        grafo.adicionarAresta(4, 1, 3);
-        grafo.adicionarAresta(4, 2, 9);
-        grafo.adicionarAresta(4, 3, 2);
+        // Teste com GrafoL (não direcionado)
+        System.out.println("===== GrafoL =====");
+        GrafoL grafoL = new GrafoL(5, true);
+        grafoL.adicionarAresta(0, 1, 10);
+        grafoL.adicionarAresta(0, 4, 5);
+        grafoL.adicionarAresta(1, 2, 1);
+        grafoL.adicionarAresta(1, 4, 2);
+        grafoL.adicionarAresta(2, 3, 4);
+        grafoL.adicionarAresta(4, 3, 2);
 
-        DijkstraL dijkstra = new DijkstraL(grafo);
-        int[] distancias = dijkstra.calcularCaminhoMinimo(0);
-
+        DijkstraL dijkstraL = new DijkstraL(grafoL);
+        int[] distanciasL = dijkstraL.calcularCaminhoMinimo(0);
         System.out.println("Distâncias a partir do vértice 0:");
-        for (int i = 0; i < distancias.length; i++) {
-            System.out.println("Vértice " + i + ": " + distancias[i]);
+        for (int i = 0; i < distanciasL.length; i++) {
+            System.out.println("Vértice " + i + ": " + (distanciasL[i] == Integer.MAX_VALUE ? "INFINITO" : distanciasL[i]));
+        }
+
+        // Teste com DigrafoL (direcionado)
+        System.out.println("\n===== DigrafoL =====");
+        DigrafoL digrafoL = new DigrafoL(5, true);
+        digrafoL.adicionarAresta(0, 1, 10);
+        digrafoL.adicionarAresta(0, 4, 5);
+        digrafoL.adicionarAresta(1, 2, 1);
+        digrafoL.adicionarAresta(1, 4, 2);
+        digrafoL.adicionarAresta(2, 3, 4);
+        digrafoL.adicionarAresta(4, 3, 2);
+
+        DijkstraL dijkstraDigrafo = new DijkstraL(digrafoL);
+        int[] distanciasDigrafo = dijkstraDigrafo.calcularCaminhoMinimo(0);
+        System.out.println("Distâncias a partir do vértice 0:");
+        for (int i = 0; i < distanciasDigrafo.length; i++) {
+            System.out.println("Vértice " + i + ": " + (distanciasDigrafo[i] == Integer.MAX_VALUE ? "INFINITO" : distanciasDigrafo[i]));
         }
     }
 

@@ -4,9 +4,11 @@ import java.util.Arrays;
 
 public class DijkstraM {
     private GrafoM grafo;
+    private boolean ehDigrafo; // Indica se é um Digrafo
 
     public DijkstraM(GrafoM grafo) {
         this.grafo = grafo;
+        this.ehDigrafo = grafo instanceof DigrafoM; // Verifica se é DigrafoM ou GrafoM
     }
 
     public int[] calcularCaminhosMinimos(int origem) {
@@ -21,6 +23,7 @@ public class DijkstraM {
         // Processa todos os vértices
         for (int i = 0; i < numVertices; i++) {
             int u = obterVerticeMaisProximo(distancias, visitados); // Obtém o vértice mais próximo não visitado
+            if (u == -1) break; // Todos os vértices restantes são inatingíveis
             visitados[u] = true; // Marca o vértice como visitado
 
             // Atualiza as distâncias para os vértices adjacentes
@@ -52,7 +55,7 @@ public class DijkstraM {
     }
 
     public static void main(String[] args) {
-        // Exemplo de grafo ponderado
+        System.out.println("===== GrafoM =====");
         GrafoM grafo = new GrafoM(5, true);
         grafo.adicionarAresta(0, 1, 10);
         grafo.adicionarAresta(0, 4, 5);
@@ -64,12 +67,32 @@ public class DijkstraM {
 
         grafo.mostrarGrafoM();
 
-        DijkstraM dijkstra = new DijkstraM(grafo);
-        int[] distancias = dijkstra.calcularCaminhosMinimos(0);
+        DijkstraM dijkstraGrafo = new DijkstraM(grafo);
+        int[] distanciasGrafo = dijkstraGrafo.calcularCaminhosMinimos(0);
 
         System.out.println("\nDistâncias mínimas a partir do vértice 0:");
-        for (int i = 0; i < distancias.length; i++) {
-            System.out.println("Vértice " + i + ": " + distancias[i]);
+        for (int i = 0; i < distanciasGrafo.length; i++) {
+            System.out.println("Vértice " + i + ": " + (distanciasGrafo[i] == Integer.MAX_VALUE ? "INFINITO" : distanciasGrafo[i]));
+        }
+
+        System.out.println("\n===== DigrafoM =====");
+        DigrafoM digrafo = new DigrafoM(5, true);
+        digrafo.adicionarAresta(0, 1, 10);
+        digrafo.adicionarAresta(0, 4, 5);
+        digrafo.adicionarAresta(1, 2, 1);
+        digrafo.adicionarAresta(2, 3, 4);
+        digrafo.adicionarAresta(4, 1, 3);
+        digrafo.adicionarAresta(4, 2, 9);
+        digrafo.adicionarAresta(4, 3, 2);
+
+        digrafo.mostrarGrafoM();
+
+        DijkstraM dijkstraDigrafo = new DijkstraM(digrafo);
+        int[] distanciasDigrafo = dijkstraDigrafo.calcularCaminhosMinimos(0);
+
+        System.out.println("\nDistâncias mínimas a partir do vértice 0:");
+        for (int i = 0; i < distanciasDigrafo.length; i++) {
+            System.out.println("Vértice " + i + ": " + (distanciasDigrafo[i] == Integer.MAX_VALUE ? "INFINITO" : distanciasDigrafo[i]));
         }
     }
 }

@@ -16,8 +16,6 @@ public class DigrafoM extends GrafoM {
         }
         if (!ponderado) {
             peso = 1; // Arestas em grafos não ponderados têm peso fixo 1
-        } else if (peso < 0) {
-            throw new IllegalArgumentException("Pesos negativos não são permitidos em grafos ponderados.");
         }
 
         matrizAdjacencia[origem][destino] = peso;

@@ -2,25 +2,11 @@ package Classes_LE;
 
 import java.util.Arrays;
 
-import Classes_LE.GrafoL.Aresta;
-
-public class FloydWarshallL extends GrafoL{
+public class FloydWarshallL {
     private GrafoL grafo;
 
-    public FloydWarshallL(int numVertices, boolean ponderado) {
-        super(numVertices, ponderado);
-    }
-
-    public void atribui(GrafoL grafo){
+    public FloydWarshallL(GrafoL grafo) {
         this.grafo = grafo;
-    }
-
-    @Override
-    public void adicionarAresta(int origem, int destino, int peso) {
-        if (origem < 0 || origem >= numVertices || destino < 0 || destino >= numVertices) {
-            throw new IllegalArgumentException("Vértices inválidos.");
-        }
-        listaAdjacencia.get(origem).add(new Aresta(origem, destino, peso));
     }
 
     public int[][] calcularCaminhosMinimos() {
@@ -65,29 +51,55 @@ public class FloydWarshallL extends GrafoL{
     }
 
     public static void main(String[] args) {
-        FloydWarshallL floydWarshall = new FloydWarshallL(4, true);
-        floydWarshall.adicionarAresta(0, 1, 3);
-        floydWarshall.adicionarAresta(0, 2, 10);
-        floydWarshall.adicionarAresta(1, 2, 2);
-        floydWarshall.adicionarAresta(1, 3, 8);
-        floydWarshall.adicionarAresta(2, 3, -5);
+        // Exemplo com GrafoL
+        System.out.println("\n===== GrafoL =====");
+        GrafoL grafoL = new GrafoL(4, true);
+        grafoL.adicionarAresta(0, 1, 3);
+        grafoL.adicionarAresta(0, 2, 10);
+        grafoL.adicionarAresta(1, 2, 2);
+        grafoL.adicionarAresta(1, 3, 8);
+        grafoL.adicionarAresta(2, 3, -5);
 
-        floydWarshall.atribui(floydWarshall);
+        FloydWarshallL floydWarshallGrafo = new FloydWarshallL(grafoL);
         try {
-            int[][] distancias = floydWarshall.calcularCaminhosMinimos();
-            System.out.println("Matriz de distâncias mínimas:");
-            for (int i = 0; i < distancias.length; i++) {
-                for (int j = 0; j < distancias[i].length; j++) {
-                    if (distancias[i][j] == Integer.MAX_VALUE) {
-                        System.out.print("INF ");
-                    } else {
-                        System.out.print(distancias[i][j] + " ");
-                    }
-                }
-                System.out.println();
-            }
+            int[][] distanciasGrafo = floydWarshallGrafo.calcularCaminhosMinimos();
+            System.out.println("Matriz de distâncias mínimas para GrafoL:");
+            printarMatriz(distanciasGrafo);
         } catch (IllegalStateException e) {
             System.out.println(e.getMessage());
+        }
+
+        // Exemplo com DigrafoL
+        System.out.println("\n===== DigrafoL =====");
+        DigrafoL digrafoL = new DigrafoL(4, true);
+        digrafoL.adicionarAresta(0, 1, 3);
+        digrafoL.adicionarAresta(0, 2, 10);
+        digrafoL.adicionarAresta(1, 2, 2);
+        digrafoL.adicionarAresta(1, 3, 8);
+        digrafoL.adicionarAresta(2, 3, -5);
+
+        FloydWarshallL floydWarshallDigrafo = new FloydWarshallL(digrafoL);
+        try {
+            int[][] distanciasDigrafo = floydWarshallDigrafo.calcularCaminhosMinimos();
+            System.out.println("Matriz de distâncias mínimas para DigrafoL:");
+            printarMatriz(distanciasDigrafo);
+        } catch (IllegalStateException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    private static void printarMatriz(int[][] matriz) {
+        final int INFINITO = Integer.MAX_VALUE;
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (matriz[i][j] == INFINITO) {
+                    System.out.print("INF ");
+                } else {
+                    System.out.printf("%3d ", matriz[i][j]);
+                }
+            }
+            System.out.println();
         }
     }
 }

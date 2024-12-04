@@ -42,14 +42,24 @@ public class DFSL {
     }
 
     public static void main(String[] args) {
-        GrafoL grafoL = new GrafoL(5, false); // Grafo não ponderado com 5 vértices
+        // Exemplo com GrafoL
+        GrafoL grafoL = new GrafoL(5, false);
         grafoL.adicionarAresta(0, 1);
         grafoL.adicionarAresta(1, 2);
         grafoL.adicionarAresta(2, 3);
         grafoL.adicionarAresta(3, 4);
+        DFSL dfsGrafo = new DFSL(grafoL);
+        System.out.println("\nGrafo ");
+        dfsGrafo.buscaProfundidade(0);
 
-        System.out.println("Grafo");
-        DFSL dfs = new DFSL(grafoL);
-        dfs.buscaProfundidade(0); // Busca em profundidade a partir do vértice 0
+        // Exemplo com DigrafoL
+        DigrafoL digrafoL = new DigrafoL(5, false);
+        digrafoL.adicionarAresta(0, 1);
+        digrafoL.adicionarAresta(1, 2);
+        digrafoL.adicionarAresta(2, 3);
+        digrafoL.adicionarAresta(3, 4);
+        DFSL dfsDigrafo = new DFSL(digrafoL);
+        System.out.println("\nDigrafo ");
+        dfsDigrafo.buscaProfundidade(0);
     }
 }

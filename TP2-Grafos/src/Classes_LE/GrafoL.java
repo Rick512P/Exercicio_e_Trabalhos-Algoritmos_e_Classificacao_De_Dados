@@ -25,12 +25,11 @@ public class GrafoL {
         }
         if (!ponderado) {
             peso = 1; // Arestas em grafos não ponderados têm peso fixo 1
-        } else if (peso < 0) {
-            throw new IllegalArgumentException("Pesos negativos não são permitidos em grafos ponderados.");
         }
         listaAdjacencia.get(origem).add(new Aresta(origem, destino, peso));
         listaAdjacencia.get(destino).add(new Aresta(destino, origem, peso)); // Grafo não direcionado
     }
+    
 
     public void adicionarAresta(int origem, int destino) {
         adicionarAresta(origem, destino, 1);
