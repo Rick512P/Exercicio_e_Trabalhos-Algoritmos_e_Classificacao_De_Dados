@@ -38,9 +38,9 @@ public class TP2 {
             System.out.println("m. Fluxo Máximo - Ford-Fulkerson (Lista)");
 
             System.out.println("\nn. Comparar desempenho dos algoritmos de Caminho Minimo (BellMan e Dijkstra) para LE");
-            System.out.println("\no. Comparar desempenho dos algoritmos de Caminho Minimo (BellMan e Dijkstra) para Matriz");
-            System.out.println("0. Sair");
-            System.out.print("Escolha uma opção: ");
+            System.out.println("o. Comparar desempenho dos algoritmos de Caminho Minimo (BellMan e Dijkstra) para Matriz");
+            System.out.println("\n0. Sair");
+            System.out.print("\nEscolha uma opção: ");
             opcao = scanner.next().charAt(0);
 
             switch (opcao) {
