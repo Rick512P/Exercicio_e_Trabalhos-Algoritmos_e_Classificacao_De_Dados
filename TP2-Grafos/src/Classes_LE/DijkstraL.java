@@ -10,6 +10,13 @@ public class DijkstraL {
     }
 
     public int[] calcularCaminhoMinimo(int origem) {
+        for (int u = 0; u < grafo.numVertices; u++) {
+            for (GrafoL.Aresta aresta : grafo.listaAdjacencia.get(u)) {
+                if (aresta.peso < 0) {
+                    throw new IllegalArgumentException("O algoritmo Dijkstra não suporta arestas com pesos negativos.");
+                }
+            }
+        }
         int[] distancias = new int[grafo.numVertices];
         final int INFINITO = Integer.MAX_VALUE;
         boolean[] visitados = new boolean[grafo.numVertices];

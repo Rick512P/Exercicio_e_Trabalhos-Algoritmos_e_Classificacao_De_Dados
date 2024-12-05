@@ -2,6 +2,8 @@ package Classes_Matriz;
 
 import java.util.Arrays;
 
+import Classes_LE.GrafoL;
+
 public class DijkstraM {
     private GrafoM grafo;
     private boolean ehDigrafo; // Indica se é um Digrafo
@@ -12,6 +14,14 @@ public class DijkstraM {
     }
 
     public int[] calcularCaminhosMinimos(int origem) {
+        // Verificar a presença de pesos negativos
+        for (int i = 0; i < grafo.numVertices; i++) {
+            for (int j = 0; j < grafo.numVertices; j++) {
+                if (grafo.matrizAdjacencia[i][j] < 0) {
+                    throw new IllegalArgumentException("O algoritmo Dijkstra não suporta arestas com pesos negativos.");
+                }
+            }
+        }
         int numVertices = grafo.numVertices;
         int[] distancias = new int[numVertices]; // Distâncias mínimas
         boolean[] visitados = new boolean[numVertices]; // Vértices visitados
