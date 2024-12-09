@@ -1,0 +1,2 @@
+javac -d bin src\market\*.java src\*.java
+java -cp bin Mercado
