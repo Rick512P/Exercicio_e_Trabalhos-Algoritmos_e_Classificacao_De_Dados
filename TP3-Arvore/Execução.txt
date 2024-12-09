@@ -1,0 +1,2 @@
+javac -d bin src\Classes\*.java src\*.java
+java -cp bin TP3
