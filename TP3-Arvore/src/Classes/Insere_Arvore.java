@@ -60,7 +60,7 @@ public class Insere_Arvore {
     public static void main(String[] args) {
         Insere_Arvore insereArvore = new Insere_Arvore(2);
 
-        String caminhoArquivo = "Dex/Dex.arb";  // Arquivo de exemplo
+        String caminhoArquivo = "../Dex/Dex.arb";  // Arquivo de exemplo
         insereArvore.insereDoArquivo(caminhoArquivo);
 
         insereArvore.imprimeArvore();
