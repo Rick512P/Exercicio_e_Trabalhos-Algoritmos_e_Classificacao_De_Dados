@@ -1,0 +1,8 @@
+Seadra
+Tipo: Água
+Número: 117
+Pré: Horsea
+Pós: Nenhuma
+
+Descrição:
+Seadra, o Pokémon Dragão do Mar, é ágil e gosta de viver entre corais. Ele é conhecido por sua habilidade de envenenar inimigos com espinhos. 

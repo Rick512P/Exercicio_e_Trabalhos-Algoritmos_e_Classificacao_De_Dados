@@ -1,0 +1,8 @@
+Sandshrew
+Tipo: Terra
+Número: 027
+Pré: Nenhuma
+Pós: Sandslash
+
+Descrição:
+Sandshrew, o Pokémon Rato, é conhecido por sua habilidade de enrolar-se para se proteger. Ele vive em áreas secas e cavar buracos é sua especialidade. 

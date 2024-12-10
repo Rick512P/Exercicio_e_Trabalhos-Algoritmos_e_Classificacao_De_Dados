@@ -1,0 +1,8 @@
+Electabuzz
+Tipo: Elétrico
+Número: 125
+Pré: Nenhuma
+Pós: Nenhuma (Electivire não listado em FireRed/LeafGreen)
+
+Descrição:
+Electabuzz, o Pokémon Elétrico, atrai raios durante tempestades. Sua pele carrega uma carga elétrica constante. 

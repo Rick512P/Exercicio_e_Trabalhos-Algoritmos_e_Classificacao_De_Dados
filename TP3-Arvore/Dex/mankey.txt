@@ -1,0 +1,8 @@
+Mankey
+Tipo: Lutador
+Número: 056
+Pré: Nenhuma
+Pós: Primeape
+
+Descrição:
+Mankey, o Pokémon Macaco, é conhecido por sua natureza extremamente temperamental. Ele pode se enfurecer com facilidade e atacar em grupos. 

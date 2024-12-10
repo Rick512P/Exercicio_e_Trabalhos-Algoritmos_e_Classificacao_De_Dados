@@ -1,0 +1,8 @@
+Dratini
+Tipo: Dragão
+Número: 147
+Pré: Nenhuma
+Pós: Dragonair
+
+Descrição:
+Dratini, o Pokémon Dragão, é uma criatura mística que vive em águas limpas. Ele é uma das formas mais jovens e raras de Pokémon Dragão. 

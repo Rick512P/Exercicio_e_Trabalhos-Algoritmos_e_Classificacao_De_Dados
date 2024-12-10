@@ -1,0 +1,8 @@
+Magneton
+Tipo: Elétrico/Aço
+Número: 082
+Pré: Magnemite
+Pós: Nenhuma
+
+Descrição:
+Magneton, o Pokémon Magnético, é formado por três Magnemite que se unem. Ele emite um campo magnético poderoso que interfere em dispositivos eletrônicos. 

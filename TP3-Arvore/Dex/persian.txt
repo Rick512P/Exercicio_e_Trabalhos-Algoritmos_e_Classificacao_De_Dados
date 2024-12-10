@@ -1,0 +1,8 @@
+Persian
+Tipo: Normal
+Número: 053
+Pré: Meowth
+Pós: Nenhuma
+
+Descrição:
+Persian, o Pokémon Gato Elegante, é orgulhoso e gracioso. Ele se move com elegância e pode atacar com garras afiadas. 

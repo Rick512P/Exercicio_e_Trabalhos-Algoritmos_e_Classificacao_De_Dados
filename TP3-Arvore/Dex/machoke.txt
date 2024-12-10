@@ -1,0 +1,8 @@
+Machoke
+Tipo: Lutador
+Número: 067
+Pré: Machop
+Pós: Machamp
+
+Descrição:
+Machoke, o Pokémon Superpoderoso, é muito musculoso e pode realizar feitos impressionantes de força. Ele usa um cinto para conter seu poder. 

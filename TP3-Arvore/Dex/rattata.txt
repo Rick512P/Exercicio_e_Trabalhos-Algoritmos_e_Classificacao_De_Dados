@@ -1,0 +1,8 @@
+Rattata
+Tipo: Normal
+Número: 019
+Pré: Nenhuma
+Pós: Raticate
+
+Descrição:
+Rattata, o Pokémon Rato, é pequeno, mas persistente. Ele é conhecido por roer qualquer coisa para manter seus dentes afiados. 

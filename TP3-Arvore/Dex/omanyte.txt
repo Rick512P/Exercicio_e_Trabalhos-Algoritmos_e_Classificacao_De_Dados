@@ -1,0 +1,8 @@
+Omanyte
+Tipo: Rocha/Água
+Número: 138
+Pré: Nenhuma
+Pós: Omastar
+
+Descrição:
+Omanyte, o Pokémon Espiral, é um fóssil trazido à vida. Ele usa seus tentáculos para se mover e capturar presas. 

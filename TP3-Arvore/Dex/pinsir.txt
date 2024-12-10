@@ -1,0 +1,8 @@
+Pinsir
+Tipo: Inseto
+Número: 127
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Pinsir, o Pokémon Besouro, usa suas pinças poderosas para esmagar e levantar inimigos, mostrando uma força surpreendente. 

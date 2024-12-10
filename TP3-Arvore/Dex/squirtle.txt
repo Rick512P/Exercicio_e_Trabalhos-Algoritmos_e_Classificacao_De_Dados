@@ -1,0 +1,8 @@
+Squirtle
+Tipo: Água
+Número: 007
+Pré: Nenhuma
+Pós: Wartortle
+
+Descrição:
+Squirtle, o Pokémon Tartaruga, é um inicial de Kanto. Ele usa seu casco como proteção e pode atirar jatos de água para se defender. 

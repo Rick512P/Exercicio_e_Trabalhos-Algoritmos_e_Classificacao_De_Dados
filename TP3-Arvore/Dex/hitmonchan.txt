@@ -1,0 +1,8 @@
+Hitmonchan
+Tipo: Lutador
+Número: 107
+Pré: Tyrogue (não listado em FireRed/LeafGreen)
+Pós: Nenhuma
+
+Descrição:
+Hitmonchan, o Pokémon Lutador, é mestre em socos. Ele pode usar uma grande variedade de golpes elementares. 

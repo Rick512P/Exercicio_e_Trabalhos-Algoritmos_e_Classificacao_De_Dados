@@ -1,0 +1,8 @@
+Ninetales
+Tipo: Fogo
+Número: 038
+Pré: Vulpix
+Pós: Nenhuma
+
+Descrição:
+Ninetales, o Pokémon Raposa, é majestoso e cheio de mistérios. Cada uma de suas nove caudas possui poderes místicos. 

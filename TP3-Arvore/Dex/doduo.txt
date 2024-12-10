@@ -1,0 +1,8 @@
+Doduo
+Tipo: Normal/Voador
+Número: 084
+Pré: Nenhuma
+Pós: Dodrio
+
+Descrição:
+Doduo, o Pokémon Duplo, possui duas cabeças que trabalham juntas para vigiar o ambiente. Ele corre rapidamente em terrenos abertos. 

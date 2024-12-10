@@ -1,0 +1,8 @@
+Haunter
+Tipo: Fantasma/Veneno
+Número: 093
+Pré: Gastly
+Pós: Gengar
+
+Descrição:
+Haunter, o Pokémon Gasoso, é assustador e brincalhão. Ele aparece à noite para pregar sustos em viajantes desavisados. 

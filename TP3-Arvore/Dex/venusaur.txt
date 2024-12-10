@@ -1,0 +1,8 @@
+Venusaur
+Tipo: Planta/Veneno
+Número: 003
+Pré: Ivysaur
+Pós: Nenhuma
+
+Descrição:
+Venusaur, o Pokémon Semente, é conhecido por sua poderosa flor nas costas. Essa flor absorve luz solar para aumentar sua energia, tornando-o um Pokémon extremamente resistente. 

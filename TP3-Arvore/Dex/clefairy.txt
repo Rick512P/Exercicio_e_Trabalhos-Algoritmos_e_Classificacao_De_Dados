@@ -1,0 +1,8 @@
+Clefairy
+Tipo: Fada
+Número: 035
+Pré: Nenhuma
+Pós: Clefable
+
+Descrição:
+Clefairy, o Pokémon Fada, é adorado por sua aparência encantadora. Ele dança à luz da lua e acredita-se que traz sorte para quem o encontra. 

@@ -1,0 +1,8 @@
+Scyther
+Tipo: Inseto/Voador
+Número: 123
+Pré: Nenhuma
+Pós: Nenhuma (Scizor não listado em FireRed/LeafGreen)
+
+Descrição:
+Scyther, o Pokémon Louva-a-Deus, é incrivelmente rápido e usa suas lâminas afiadas para cortar o inimigo com precisão. 

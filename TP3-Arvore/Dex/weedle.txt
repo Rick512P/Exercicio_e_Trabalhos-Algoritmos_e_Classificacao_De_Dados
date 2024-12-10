@@ -1,0 +1,8 @@
+Weedle
+Tipo: Inseto/Veneno
+Número: 013
+Pré: Nenhuma
+Pós: Kakuna
+
+Descrição:
+Weedle, o Pokémon Larva, é conhecido por seu ferrão venenoso e sua habilidade de enrolar folhas para se esconder de predadores. 

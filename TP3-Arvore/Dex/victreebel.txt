@@ -1,0 +1,8 @@
+Victreebel
+Tipo: Planta/Veneno
+Número: 071
+Pré: Weepinbell
+Pós: Nenhuma
+
+Descrição:
+Victreebel, o Pokémon Carnívoro, atrai presas com seu aroma doce antes de engoli-las. Ele é encontrado em florestas densas e úmidas. 

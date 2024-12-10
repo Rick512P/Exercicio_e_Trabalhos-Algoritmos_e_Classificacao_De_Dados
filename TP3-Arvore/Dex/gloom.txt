@@ -1,0 +1,8 @@
+Gloom
+Tipo: Planta/Veneno
+Número: 044
+Pré: Oddish
+Pós: Vileplume
+
+Descrição:
+Gloom, o Pokémon Erva, emite um cheiro pungente de sua flor. Apesar de desagradável, é um sinal de que está saudável. 

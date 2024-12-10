@@ -1,0 +1,8 @@
+Pidgey
+Tipo: Normal/Voador
+Número: 016
+Pré: Nenhuma
+Pós: Pidgeotto
+
+Descrição:
+Pidgey, o Pokémon Pássaro Pequeno, é dócil e prefere evitar confrontos. Ele é capaz de criar pequenas rajadas de vento com o bater de suas asas. 

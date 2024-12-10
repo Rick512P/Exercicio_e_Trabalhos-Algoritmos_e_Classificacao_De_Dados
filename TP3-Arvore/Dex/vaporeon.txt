@@ -1,0 +1,8 @@
+Vaporeon
+Tipo: Água
+Número: 134
+Pré: Eevee
+Pós: Nenhuma
+
+Descrição:
+Vaporeon, o Pokémon Bolhas, é uma evolução aquática de Eevee. Ele pode se misturar na água para se camuflar. 

@@ -1,0 +1,8 @@
+Hitmonlee
+Tipo: Lutador
+Número: 106
+Pré: Tyrogue (não listado em FireRed/LeafGreen)
+Pós: Nenhuma
+
+Descrição:
+Hitmonlee, o Pokémon Lutador, é especialista em chutes. Suas pernas elásticas permitem ataques rápidos e precisos. 

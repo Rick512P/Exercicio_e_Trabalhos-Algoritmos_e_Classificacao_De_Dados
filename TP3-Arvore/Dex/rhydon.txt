@@ -1,0 +1,8 @@
+Rhydon
+Tipo: Terra/Rocha
+Número: 112
+Pré: Rhyhorn
+Pós: Nenhuma
+
+Descrição:
+Rhydon, o Pokémon Broca, é conhecido por sua força imensa e sua habilidade de suportar calor extremo e ataques poderosos. 

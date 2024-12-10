@@ -1,0 +1,8 @@
+Paras
+Tipo: Inseto/Planta
+Número: 046
+Pré: Nenhuma
+Pós: Parasect
+
+Descrição:
+Paras, o Pokémon Cogumelo, tem cogumelos que crescem em suas costas. Ele vive em florestas escuras e prefere locais úmidos. 

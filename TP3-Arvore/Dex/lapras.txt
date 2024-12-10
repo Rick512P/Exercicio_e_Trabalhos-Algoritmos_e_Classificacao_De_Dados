@@ -1,0 +1,8 @@
+Lapras
+Tipo: Água/Gelo
+Número: 131
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Lapras, o Pokémon Transporte, é gentil e inteligente. Ele adora carregar pessoas e Pokémon pelas águas tranquilas. 

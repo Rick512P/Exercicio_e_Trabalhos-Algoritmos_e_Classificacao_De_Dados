@@ -1,0 +1,8 @@
+Grimer
+Tipo: Veneno
+Número: 088
+Pré: Nenhuma
+Pós: Muk
+
+Descrição:
+Grimer, o Pokémon Lodo, é formado por resíduos tóxicos. Ele contamina tudo ao seu redor enquanto se move. 

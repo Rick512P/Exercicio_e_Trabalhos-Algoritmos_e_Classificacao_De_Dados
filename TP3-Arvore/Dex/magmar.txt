@@ -1,0 +1,8 @@
+Magmar
+Tipo: Fogo
+Número: 126
+Pré: Nenhuma
+Pós: Nenhuma (Magmortar não listado em FireRed/LeafGreen)
+
+Descrição:
+Magmar, o Pokémon Cuspidor de Fogo, vive perto de vulcões. Sua temperatura corporal é tão alta que pode derreter pedras. 

@@ -1,0 +1,8 @@
+Abra
+Tipo: Psíquico
+Número: 063
+Pré: Nenhuma
+Pós: Kadabra
+
+Descrição:
+Abra, o Pokémon Psíquico, passa a maior parte do tempo dormindo para manter suas habilidades psíquicas. Ele é capaz de se teletransportar em caso de perigo. 

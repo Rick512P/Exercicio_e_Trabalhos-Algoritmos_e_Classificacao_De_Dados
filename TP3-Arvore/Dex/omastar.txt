@@ -1,0 +1,8 @@
+Omastar
+Tipo: Rocha/Água
+Número: 139
+Pré: Omanyte
+Pós: Nenhuma
+
+Descrição:
+Omastar, o Pokémon Espiral, possui uma mandíbula poderosa que pode esmagar conchas duras. Ele era um predador em tempos antigos. 

@@ -1,0 +1,8 @@
+Tentacool
+Tipo: Água/Veneno
+Número: 072
+Pré: Nenhuma
+Pós: Tentacruel
+
+Descrição:
+Tentacool, o Pokémon Água-viva, possui um corpo translúcido que flutua no oceano. Ele utiliza seus tentáculos para se defender e capturar presas. 

@@ -1,0 +1,8 @@
+Alakazam
+Tipo: Psíquico
+Número: 065
+Pré: Kadabra
+Pós: Nenhuma
+
+Descrição:
+Alakazam, o Pokémon Psíquico, possui uma inteligência extraordinária. Diz-se que seu cérebro nunca para de crescer, aumentando continuamente sua sabedoria. 

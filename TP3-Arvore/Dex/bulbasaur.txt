@@ -1,0 +1,8 @@
+Bulbasaur
+Tipo: Planta/Veneno
+Número: 001
+Pré: Nenhuma
+Pós: Ivysaur
+
+Descrição:
+Bulbasaur, o Pokémon Semente, é um dos três iniciais da região de Kanto. Ele possui uma planta nas costas que cresce conforme ele evolui. Bulbasaur é amigável e leal, mas também bastante protetor quando se trata de seus amigos e seu território. 

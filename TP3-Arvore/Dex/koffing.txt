@@ -1,0 +1,8 @@
+Koffing
+Tipo: Veneno
+Número: 109
+Pré: Nenhuma
+Pós: Weezing
+
+Descrição:
+Koffing, o Pokémon Gás, flutua carregando gás venenoso. Ele é frequentemente encontrado em áreas poluídas. 

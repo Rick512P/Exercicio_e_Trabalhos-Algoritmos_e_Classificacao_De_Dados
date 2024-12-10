@@ -1,0 +1,8 @@
+Ekans
+Tipo: Veneno
+Número: 023
+Pré: Nenhuma
+Pós: Arbok
+
+Descrição:
+Ekans, o Pokémon Cobra, pode enrolar-se para descansar ou atacar. Ele é ágil e usa suas presas venenosas para capturar presas. 

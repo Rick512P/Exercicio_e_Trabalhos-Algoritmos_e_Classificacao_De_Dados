@@ -1,0 +1,8 @@
+Tauros
+Tipo: Normal
+Número: 128
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Tauros, o Pokémon Touro Selvagem, é agressivo e adora correr enquanto balança suas três caudas em batalha. 

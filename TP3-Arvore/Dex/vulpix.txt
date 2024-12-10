@@ -1,0 +1,8 @@
+Vulpix
+Tipo: Fogo
+Número: 037
+Pré: Nenhuma
+Pós: Ninetales
+
+Descrição:
+Vulpix, o Pokémon Raposa, nasce com uma única cauda que se divide conforme cresce. Ele pode expelir chamas para se defender. 

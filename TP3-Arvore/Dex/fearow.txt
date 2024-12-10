@@ -1,0 +1,8 @@
+Fearow
+Tipo: Normal/Voador
+Número: 022
+Pré: Spearow
+Pós: Nenhuma
+
+Descrição:
+Fearow, o Pokémon Bico, é conhecido por sua habilidade de voar grandes distâncias. Seu longo pescoço e bico afiado o tornam um caçador eficiente. 

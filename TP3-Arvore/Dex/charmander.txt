@@ -1,0 +1,8 @@
+Charmander
+Tipo: Fogo
+Número: 004
+Pré: Nenhuma
+Pós: Charmeleon
+
+Descrição:
+Charmander, o Pokémon Lagarto, é um dos iniciais da região de Kanto. A chama na ponta de sua cauda indica sua vitalidade e é extremamente importante para ele. 

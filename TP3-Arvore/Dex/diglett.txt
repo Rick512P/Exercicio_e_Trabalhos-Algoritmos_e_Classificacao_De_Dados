@@ -1,0 +1,8 @@
+Diglett
+Tipo: Terra
+Número: 050
+Pré: Nenhuma
+Pós: Dugtrio
+
+Descrição:
+Diglett, o Pokémon Toupeira, vive debaixo da terra e raramente é visto. Ele ajuda a arar campos cavando túneis. 

@@ -1,0 +1,8 @@
+Jynx
+Tipo: Gelo/Psíquico
+Número: 124
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Jynx, o Pokémon Humanoide, é conhecido por seus movimentos de dança rítmica, que hipnotizam e confundem oponentes. 

@@ -1,0 +1,8 @@
+Primeape
+Tipo: Lutador
+Número: 057
+Pré: Mankey
+Pós: Nenhuma
+
+Descrição:
+Primeape, o Pokémon Macaco, é sempre furioso e difícil de controlar. Sua força aumenta quanto mais irritado ele fica. 

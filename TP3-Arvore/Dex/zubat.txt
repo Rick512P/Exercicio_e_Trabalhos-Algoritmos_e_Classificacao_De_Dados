@@ -1,0 +1,8 @@
+Zubat
+Tipo: Veneno/Voador
+Número: 041
+Pré: Nenhuma
+Pós: Golbat
+
+Descrição:
+Zubat, o Pokémon Morcego, é cego, mas usa ondas ultrassônicas para se orientar. Ele vive em cavernas escuras com grandes colônias. 

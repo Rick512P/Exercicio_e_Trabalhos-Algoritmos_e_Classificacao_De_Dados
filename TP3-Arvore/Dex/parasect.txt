@@ -1,0 +1,8 @@
+Parasect
+Tipo: Inseto/Planta
+Número: 047
+Pré: Paras
+Pós: Nenhuma
+
+Descrição:
+Parasect, o Pokémon Cogumelo, é controlado pelo cogumelo parasítico em suas costas. Ele espalha esporos para sobreviver. 

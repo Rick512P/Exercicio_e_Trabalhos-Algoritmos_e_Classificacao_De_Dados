@@ -1,0 +1,8 @@
+Wigglytuff
+Tipo: Normal/Fada
+Número: 040
+Pré: Jigglypuff
+Pós: Nenhuma
+
+Descrição:
+Wigglytuff, o Pokémon Balão, possui uma pele extremamente macia. Ele infla seu corpo para intimidar adversários. 

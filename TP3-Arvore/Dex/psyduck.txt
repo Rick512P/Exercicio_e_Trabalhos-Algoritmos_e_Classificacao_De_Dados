@@ -1,0 +1,8 @@
+Psyduck
+Tipo: Água
+Número: 054
+Pré: Nenhuma
+Pós: Golduck
+
+Descrição:
+Psyduck, o Pokémon Pato, sofre frequentemente de dores de cabeça. Quando a dor atinge seu pico, ele libera misteriosos poderes psíquicos. 

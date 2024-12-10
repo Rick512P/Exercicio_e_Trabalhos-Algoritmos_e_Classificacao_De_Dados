@@ -1,0 +1,8 @@
+Arbok
+Tipo: Veneno
+Número: 024
+Pré: Ekans
+Pós: Nenhuma
+
+Descrição:
+Arbok, o Pokémon Cobra, é assustador e mortal. Os padrões em seu corpo podem hipnotizar ou intimidar inimigos. 

@@ -1,0 +1,8 @@
+Golbat
+Tipo: Veneno/Voador
+Número: 042
+Pré: Zubat
+Pós: Nenhuma
+
+Descrição:
+Golbat, o Pokémon Morcego, é noturno e suga o sangue de suas presas para se alimentar. Ele voa rapidamente, mesmo em lugares apertados. 

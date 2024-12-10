@@ -1,0 +1,8 @@
+Raticate
+Tipo: Normal
+Número: 020
+Pré: Rattata
+Pós: Nenhuma
+
+Descrição:
+Raticate, o Pokémon Rato, é feroz e possui dentes extremamente fortes. Ele pode nadar em rios e escalar edifícios para encontrar comida. 

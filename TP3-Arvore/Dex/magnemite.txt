@@ -1,0 +1,8 @@
+Magnemite
+Tipo: Elétrico/Aço
+Número: 081
+Pré: Nenhuma
+Pós: Magneton
+
+Descrição:
+Magnemite, o Pokémon Magnético, flutua utilizando magnetismo. Ele emite ondas elétricas para paralisar inimigos e absorver energia. 

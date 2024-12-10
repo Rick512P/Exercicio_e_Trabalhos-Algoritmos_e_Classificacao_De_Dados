@@ -1,0 +1,8 @@
+Dewgong
+Tipo: Água/Gelo
+Número: 087
+Pré: Seel
+Pós: Nenhuma
+
+Descrição:
+Dewgong, o Pokémon Marinho, é gracioso e ágil na água. Sua pele espessa o protege contra o frio intenso. 

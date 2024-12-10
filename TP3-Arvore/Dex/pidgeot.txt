@@ -1,0 +1,8 @@
+Pidgeot
+Tipo: Normal/Voador
+Número: 018
+Pré: Pidgeotto
+Pós: Nenhuma
+
+Descrição:
+Pidgeot, o Pokémon Pássaro, é majestoso e extremamente rápido. Suas asas poderosas podem criar rajadas de vento devastadoras. 

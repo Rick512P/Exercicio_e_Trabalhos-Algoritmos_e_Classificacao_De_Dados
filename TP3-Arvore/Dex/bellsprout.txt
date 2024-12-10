@@ -1,0 +1,8 @@
+Bellsprout
+Tipo: Planta/Veneno
+Número: 069
+Pré: Nenhuma
+Pós: Weepinbell
+
+Descrição:
+Bellsprout, o Pokémon Flor, é ágil e pode girar seu corpo para desviar de ataques. Ele absorve nutrientes usando suas raízes. 

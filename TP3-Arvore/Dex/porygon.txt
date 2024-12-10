@@ -1,0 +1,8 @@
+Porygon
+Tipo: Normal
+Número: 137
+Pré: Nenhuma
+Pós: Nenhuma (Porygon2 não listado em FireRed/LeafGreen)
+
+Descrição:
+Porygon, o Pokémon Virtual, foi criado artificialmente. Ele pode entrar em sistemas de computadores para explorar dados. 

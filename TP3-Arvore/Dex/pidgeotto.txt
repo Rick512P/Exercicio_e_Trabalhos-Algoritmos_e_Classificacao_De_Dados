@@ -1,0 +1,8 @@
+Pidgeotto
+Tipo: Normal/Voador
+Número: 017
+Pré: Pidgey
+Pós: Pidgeot
+
+Descrição:
+Pidgeotto, o Pokémon Pássaro, é territorial e protege seu habitat com vigor. Ele usa suas garras afiadas para atacar. 

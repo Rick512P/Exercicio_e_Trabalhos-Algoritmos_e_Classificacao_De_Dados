@@ -1,0 +1,8 @@
+Dodrio
+Tipo: Normal/Voador
+Número: 085
+Pré: Doduo
+Pós: Nenhuma
+
+Descrição:
+Dodrio, o Pokémon Tríplice, tem três cabeças que compartilham pensamentos. Ele é um corredor veloz e extremamente atento ao perigo. 

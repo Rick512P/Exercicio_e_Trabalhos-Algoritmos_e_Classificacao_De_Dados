@@ -1,0 +1,8 @@
+Raichu
+Tipo: Elétrico
+Número: 026
+Pré: Pikachu
+Pós: Nenhuma
+
+Descrição:
+Raichu, o Pokémon Rato Elétrico, é mais forte que Pikachu. Ele descarrega eletricidade através de sua cauda e pode causar apagões. 

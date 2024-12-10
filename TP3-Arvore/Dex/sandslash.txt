@@ -1,0 +1,8 @@
+Sandslash
+Tipo: Terra
+Número: 028
+Pré: Sandshrew
+Pós: Nenhuma
+
+Descrição:
+Sandslash, o Pokémon Rato, possui garras afiadas que usa para escavar e se defender. Ele pode enrolar-se como Sandshrew, mas é muito mais resistente. 

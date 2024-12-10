@@ -1,0 +1,8 @@
+Machop
+Tipo: Lutador
+Número: 066
+Pré: Nenhuma
+Pós: Machoke
+
+Descrição:
+Machop, o Pokémon Superpoderoso, treina constantemente para melhorar sua força. Ele consegue levantar e carregar objetos várias vezes maiores que seu peso. 

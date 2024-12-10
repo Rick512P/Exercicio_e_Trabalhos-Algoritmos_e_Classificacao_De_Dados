@@ -1,0 +1,8 @@
+Jolteon
+Tipo: Elétrico
+Número: 135
+Pré: Eevee
+Pós: Nenhuma
+
+Descrição:
+Jolteon, o Pokémon Relâmpago, é uma evolução elétrica de Eevee. Ele dispara raios de eletricidade ao ser provocado. 

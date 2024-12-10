@@ -1,0 +1,8 @@
+Muk
+Tipo: Veneno
+Número: 089
+Pré: Grimer
+Pós: Nenhuma
+
+Descrição:
+Muk, o Pokémon Lodo, é ainda mais tóxico que Grimer. Ele libera um cheiro horrível que causa náusea. 

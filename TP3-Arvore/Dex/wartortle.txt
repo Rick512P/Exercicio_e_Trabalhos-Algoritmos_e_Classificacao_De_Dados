@@ -1,0 +1,8 @@
+Wartortle
+Tipo: Água
+Número: 008
+Pré: Squirtle
+Pós: Blastoise
+
+Descrição:
+Wartortle, o Pokémon Tartaruga, é a evolução de Squirtle. Ele é mais experiente em batalha e usa sua cauda peluda como um símbolo de longevidade. 

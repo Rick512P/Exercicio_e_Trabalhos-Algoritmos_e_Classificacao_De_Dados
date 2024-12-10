@@ -1,0 +1,8 @@
+Blastoise
+Tipo: Água
+Número: 009
+Pré: Wartortle
+Pós: Nenhuma
+
+Descrição:
+Blastoise, o Pokémon Tartaruga, é famoso por seus canhões de água. Ele pode disparar jatos com pressão suficiente para perfurar aço. 

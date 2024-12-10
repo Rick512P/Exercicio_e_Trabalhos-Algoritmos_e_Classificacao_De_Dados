@@ -1,0 +1,8 @@
+Slowbro
+Tipo: Água/Psíquico
+Número: 080
+Pré: Slowpoke
+Pós: Nenhuma
+
+Descrição:
+Slowbro, o Pokémon Simbiose, se tornou mais ágil após um Shellder morder sua cauda. Ele continua a ser calmo e relaxado. 

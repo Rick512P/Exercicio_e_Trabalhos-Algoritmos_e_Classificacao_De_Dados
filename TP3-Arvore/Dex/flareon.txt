@@ -1,0 +1,8 @@
+Flareon
+Tipo: Fogo
+Número: 136
+Pré: Eevee
+Pós: Nenhuma
+
+Descrição:
+Flareon, o Pokémon Chama, é uma evolução de fogo de Eevee. Sua temperatura interna pode alcançar níveis extremos. 

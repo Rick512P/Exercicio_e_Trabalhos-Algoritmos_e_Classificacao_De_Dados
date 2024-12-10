@@ -1,0 +1,8 @@
+Eevee
+Tipo: Normal
+Número: 133
+Pré: Nenhuma
+Pós: Vaporeon, Jolteon, Flareon
+
+Descrição:
+Eevee, o Pokémon Evolução, possui um DNA instável que lhe permite evoluir para várias formas diferentes. 

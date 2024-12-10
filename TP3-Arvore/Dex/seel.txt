@@ -1,0 +1,8 @@
+Seel
+Tipo: Água
+Número: 086
+Pré: Nenhuma
+Pós: Dewgong
+
+Descrição:
+Seel, o Pokémon Marinho, vive em águas geladas e utiliza sua cauda para nadar com agilidade. Ele adora brincar em banquisas de gelo. 

@@ -1,0 +1,8 @@
+Tentacruel
+Tipo: Água/Veneno
+Número: 073
+Pré: Tentacool
+Pós: Nenhuma
+
+Descrição:
+Tentacruel, o Pokémon Água-viva, é agressivo e tem numerosos tentáculos venenosos. Ele pode criar ondas poderosas para afundar barcos. 

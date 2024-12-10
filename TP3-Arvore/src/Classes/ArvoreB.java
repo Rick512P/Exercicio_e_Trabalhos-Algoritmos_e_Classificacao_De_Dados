@@ -29,6 +29,9 @@ public class ArvoreB {
         return pesquisa(this.raiz, chave) != null;
     }
 
+    public boolean pesquisa(int chave, int Busca) {
+        return pesquisa(this.raiz, chave, Busca) != null;
+    }
     private No pesquisa(No no, int chave) {
         int i = 0;
 
@@ -44,6 +47,22 @@ public class ArvoreB {
             return null;
 
         return pesquisa(no.filhos.get(i), chave);
+    }
+
+    private No pesquisa(No no, int chave, int Busca) {
+        int i = 0;
+
+        while (i < no.chaves.size() && chave > Integer.parseInt(no.chaves.get(i)[0]))
+            i++;
+
+        if (i < no.chaves.size() && chave == Integer.parseInt(no.chaves.get(i)[0])) {
+            return no;
+        }
+
+        if (no.folha)
+            return null;
+
+        return pesquisa(no.filhos.get(i), chave, Busca);
     }
 
     // Insere uma chave na árvore
@@ -121,6 +140,30 @@ public class ArvoreB {
         }
     }
 
+    // Método getValorChave
+    public String[] getValorChave(int chave) {
+        No no = pesquisa(this.raiz, chave);  // Localiza o nó
+        if (no != null) {
+            for (String[] chaveValor : no.chaves) {
+                if (Integer.parseInt(chaveValor[0]) == chave) {
+                    return chaveValor;  // Retorna o vetor de 3 elementos
+                }
+            }
+        }
+        return null;  // Se a chave não for encontrada
+    }
+
+    public String[] getValorChave(int chave, int Busca) {
+        No no = pesquisa(this.raiz, chave, Busca);  // Localiza o nó
+        if (no != null) {
+            for (String[] chaveValor : no.chaves) {
+                if (Integer.parseInt(chaveValor[0]) == chave) {
+                    return chaveValor;  // Retorna o vetor de 3 elementos
+                }
+            }
+        }
+        return null;  // Se a chave não for encontrada
+    }
     public static void main(String[] args) {
         ArvoreB arvore = new ArvoreB(2);
 
@@ -137,10 +180,9 @@ public class ArvoreB {
         System.out.println("Estrutura da Árvore B:");
         arvore.imprime();
 
-        System.out.println("Pesquisa 12:");
-        arvore.pesquisa(12);
-
-        System.out.println("Pesquisa 100:");
-        arvore.pesquisa(100);
+        // Testando o método getValorChave
+        System.out.println("Valor da chave 12: " + Arrays.toString(arvore.getValorChave(12)));
+        System.out.println("Valor da chave 100: " + Arrays.toString(arvore.getValorChave(100)));
+        System.out.println("Valor da chave 25: " + Arrays.toString(arvore.getValorChave(25)));
     }
 }

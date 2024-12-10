@@ -1,0 +1,8 @@
+Weepinbell
+Tipo: Planta/Veneno
+Número: 070
+Pré: Bellsprout
+Pós: Victreebel
+
+Descrição:
+Weepinbell, o Pokémon Carnívoro, secreta um ácido para dissolver presas pequenas. Ele prefere viver em árvores para caçar de forma eficiente. 

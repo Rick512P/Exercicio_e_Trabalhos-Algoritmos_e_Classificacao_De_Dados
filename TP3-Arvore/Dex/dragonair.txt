@@ -1,0 +1,8 @@
+Dragonair
+Tipo: Dragão
+Número: 148
+Pré: Dratini
+Pós: Dragonite
+
+Descrição:
+Dragonair, o Pokémon Dragão, é elegante e poderoso. Ele é capaz de controlar os ventos e se proteger de ataques com sua habilidade única. 

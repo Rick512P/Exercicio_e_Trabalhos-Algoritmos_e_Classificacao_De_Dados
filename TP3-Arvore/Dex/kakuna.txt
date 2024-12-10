@@ -1,0 +1,8 @@
+Kakuna
+Tipo: Inseto/Veneno
+Número: 014
+Pré: Weedle
+Pós: Beedrill
+
+Descrição:
+Kakuna, o Pokémon Casulo, é imóvel e parece vulnerável, mas está se preparando para se tornar o agressivo Beedrill. 

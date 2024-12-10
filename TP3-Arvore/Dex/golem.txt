@@ -1,0 +1,8 @@
+Golem
+Tipo: Rocha/Terra
+Número: 076
+Pré: Graveler
+Pós: Nenhuma
+
+Descrição:
+Golem, o Pokémon Rocha, é extremamente resistente. Ele se protege com uma carapaça dura e pode rolar morros com grande velocidade. 

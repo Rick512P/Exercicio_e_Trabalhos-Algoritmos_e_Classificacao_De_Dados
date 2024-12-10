@@ -1,0 +1,8 @@
+Seaking
+Tipo: Água
+Número: 119
+Pré: Goldeen
+Pós: Nenhuma
+
+Descrição:
+Seaking, o Pokémon Dourado, é um nadador poderoso. Ele cria ninhos em rios e lagos durante a temporada de acasalamento. 

@@ -1,0 +1,8 @@
+Staryu
+Tipo: Água
+Número: 120
+Pré: Nenhuma
+Pós: Starmie
+
+Descrição:
+Staryu, o Pokémon Estrela do Mar, é capaz de regenerar seus membros perdidos. Seu núcleo brilha intensamente durante a noite. 

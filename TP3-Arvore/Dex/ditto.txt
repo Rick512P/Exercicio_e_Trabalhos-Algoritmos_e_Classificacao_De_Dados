@@ -1,0 +1,8 @@
+Ditto
+Tipo: Normal
+Número: 132
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Ditto, o Pokémon Transformação, pode se transformar em qualquer Pokémon que vir, copiando habilidades e aparência. 

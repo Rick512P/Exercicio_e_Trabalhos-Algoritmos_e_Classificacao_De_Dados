@@ -1,0 +1,8 @@
+Electrode
+Tipo: Elétrico
+Número: 101
+Pré: Voltorb
+Pós: Nenhuma
+
+Descrição:
+Electrode, o Pokémon Bola, é muito mais rápido que Voltorb. Ele adora absorver eletricidade e pode explodir violentamente se sobrecarregado. 

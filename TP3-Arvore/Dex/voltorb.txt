@@ -1,0 +1,8 @@
+Voltorb
+Tipo: Elétrico
+Número: 100
+Pré: Nenhuma
+Pós: Electrode
+
+Descrição:
+Voltorb, o Pokémon Bola, é conhecido por sua semelhança com uma Pokébola. Ele explode ao menor impacto ou provocação. 

@@ -1,0 +1,8 @@
+Charizard
+Tipo: Fogo/Voador
+Número: 006
+Pré: Charmeleon
+Pós: Nenhuma
+
+Descrição:
+Charizard, o Pokémon Chama, é conhecido por seu poder de voo e por cuspir chamas tão quentes que podem derreter pedras. 

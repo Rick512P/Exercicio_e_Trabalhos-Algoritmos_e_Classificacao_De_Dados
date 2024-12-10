@@ -1,0 +1,8 @@
+Kingler
+Tipo: Água
+Número: 099
+Pré: Krabby
+Pós: Nenhuma
+
+Descrição:
+Kingler, o Pokémon Caranguejo, possui uma pinça enorme e poderosa. Ele utiliza sua força para esmagar conchas e pedras. 

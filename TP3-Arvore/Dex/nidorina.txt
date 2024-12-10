@@ -1,0 +1,8 @@
+Nidorina
+Tipo: Veneno
+Número: 030
+Pré: Nidoran♀
+Pós: Nidoqueen
+
+Descrição:
+Nidorina, o Pokémon Agulha Venenosa, é cuidadosa e protetora com seus companheiros. Seu corpo é mais resistente que o de Nidoran♀. 

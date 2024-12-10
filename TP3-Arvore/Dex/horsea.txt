@@ -1,0 +1,8 @@
+Horsea
+Tipo: Água
+Número: 116
+Pré: Nenhuma
+Pós: Seadra
+
+Descrição:
+Horsea, o Pokémon Dragão do Mar, nada graciosamente e dispara água em alta pressão para se defender. 

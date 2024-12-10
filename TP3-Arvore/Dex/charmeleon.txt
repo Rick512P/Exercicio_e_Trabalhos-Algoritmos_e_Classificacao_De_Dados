@@ -1,0 +1,8 @@
+Charmeleon
+Tipo: Fogo
+Número: 005
+Pré: Charmander
+Pós: Charizard
+
+Descrição:
+Charmeleon, o Pokémon Chama, é uma evolução de Charmander. Ele é mais agressivo e sua cauda brilha intensamente quando está lutando. 

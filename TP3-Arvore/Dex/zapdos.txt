@@ -1,0 +1,8 @@
+Zapdos
+Tipo: Elétrico/Voador
+Número: 145
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Zapdos, o Pokémon Pássaro Elétrico, é outro lendário de Kanto. Sua presença causa tempestades elétricas, e seus poderes podem ser devastadores. 

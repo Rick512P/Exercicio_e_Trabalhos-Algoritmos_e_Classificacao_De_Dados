@@ -1,0 +1,8 @@
+Poliwrath
+Tipo: Água/Lutador
+Número: 062
+Pré: Poliwhirl
+Pós: Nenhuma
+
+Descrição:
+Poliwrath, o Pokémon Girino, é extremamente forte e resistente. Ele nada vastas distâncias com facilidade, utilizando seus músculos robustos. 

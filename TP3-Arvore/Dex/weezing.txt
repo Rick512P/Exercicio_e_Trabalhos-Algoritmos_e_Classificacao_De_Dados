@@ -1,0 +1,8 @@
+Weezing
+Tipo: Veneno
+Número: 110
+Pré: Koffing
+Pós: Nenhuma
+
+Descrição:
+Weezing, o Pokémon Gás, é formado por dois Koffing fundidos. Ele emite um cheiro terrível ao liberar gases tóxicos. 

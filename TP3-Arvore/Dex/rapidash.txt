@@ -1,0 +1,8 @@
+Rapidash
+Tipo: Fogo
+Número: 078
+Pré: Ponyta
+Pós: Nenhuma
+
+Descrição:
+Rapidash, o Pokémon Cavalo de Fogo, é extremamente veloz e elegante. Ele é conhecido por sua corrida graciosa e suas chamas vibrantes. 

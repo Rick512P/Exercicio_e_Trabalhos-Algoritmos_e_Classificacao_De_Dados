@@ -1,0 +1,8 @@
+Nidoran♂
+Tipo: Veneno
+Número: 032
+Pré: Nenhuma
+Pós: Nidorino
+
+Descrição:
+Nidoran♂, o Pokémon Agulha Venenosa, possui espinhos venenosos e é mais agressivo que sua contraparte fêmea. Ele ataca ferozmente quando ameaçado. 

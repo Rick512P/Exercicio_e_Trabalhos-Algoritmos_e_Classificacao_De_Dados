@@ -1,0 +1,8 @@
+Ponyta
+Tipo: Fogo
+Número: 077
+Pré: Nenhuma
+Pós: Rapidash
+
+Descrição:
+Ponyta, o Pokémon Cavalo de Fogo, é ágil e rápido. Ele possui uma juba flamejante que cresce à medida que se torna mais forte. 

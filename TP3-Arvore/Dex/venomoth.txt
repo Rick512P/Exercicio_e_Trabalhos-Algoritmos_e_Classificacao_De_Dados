@@ -1,0 +1,8 @@
+Venomoth
+Tipo: Inseto/Veneno
+Número: 049
+Pré: Venonat
+Pós: Nenhuma
+
+Descrição:
+Venomoth, o Pokémon Mariposa Venenosa, espalha pó venenoso de suas asas durante o voo. Ele prefere caçar à noite. 

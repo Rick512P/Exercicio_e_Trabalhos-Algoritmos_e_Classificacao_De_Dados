@@ -1,0 +1,8 @@
+Moltres
+Tipo: Fogo/Voador
+Número: 146
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Moltres, o Pokémon Pássaro de Fogo, é o terceiro dos lendários de Kanto. Ele é capaz de gerar chamas intensas e incandescentes, capazes de derreter tudo em seu caminho. 

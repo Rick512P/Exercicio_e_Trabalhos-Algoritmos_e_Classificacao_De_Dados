@@ -1,0 +1,8 @@
+Poliwhirl
+Tipo: Água
+Número: 061
+Pré: Poliwag
+Pós: Poliwrath
+
+Descrição:
+Poliwhirl, o Pokémon Girino, tem um corpo úmido e escorregadio. Ele pode usar suas patas poderosas para atacar e nadar contra correntes fortes. 

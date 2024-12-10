@@ -1,0 +1,8 @@
+Gengar
+Tipo: Fantasma/Veneno
+Número: 094
+Pré: Haunter
+Pós: Nenhuma
+
+Descrição:
+Gengar, o Pokémon Sombra, adora causar medo com suas brincadeiras. Ele é capaz de se fundir com as sombras ao seu redor. 

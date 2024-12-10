@@ -1,0 +1,8 @@
+Kabuto
+Tipo: Rocha/Água
+Número: 140
+Pré: Nenhuma
+Pós: Kabutops
+
+Descrição:
+Kabuto, o Pokémon Fóssil, foi revivido de um fóssil. Ele é protegido por uma carapaça resistente que o mantém seguro. 

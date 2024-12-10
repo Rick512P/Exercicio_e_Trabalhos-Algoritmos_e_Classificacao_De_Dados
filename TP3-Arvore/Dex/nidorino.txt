@@ -1,0 +1,8 @@
+Nidorino
+Tipo: Veneno
+Número: 033
+Pré: Nidoran♂
+Pós: Nidoking
+
+Descrição:
+Nidorino, o Pokémon Agulha Venenosa, é altamente agressivo. Seus espinhos emitem veneno quando ele está irritado ou em combate. 

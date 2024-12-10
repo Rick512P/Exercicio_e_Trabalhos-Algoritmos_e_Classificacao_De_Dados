@@ -1,0 +1,8 @@
+Mr. Mime
+Tipo: Psíquico/Fada
+Número: 122
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Mr. Mime, o Pokémon Barreira, é especialista em criar barreiras invisíveis com movimentos de mímica extremamente precisos. 

@@ -1,0 +1,8 @@
+Beedrill
+Tipo: Inseto/Veneno
+Número: 015
+Pré: Kakuna
+Pós: Nenhuma
+
+Descrição:
+Beedrill, o Pokémon Abelha, é rápido e perigoso. Seus ferrões são usados para ataques precisos e podem ser extremamente venenosos. 

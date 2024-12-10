@@ -12,7 +12,7 @@ public class Insere_Arvore {
         this.arvoreB = new ArvoreB(grauMinimo);
     }
 
-    // Método para ler arquivo e inserir na árvore
+    // Método para ler o arquivo e inserir na árvore
     public void insereDoArquivo(String caminhoArquivo) {
         File arquivo = new File(caminhoArquivo);
 
@@ -24,22 +24,9 @@ public class Insere_Arvore {
         try (BufferedReader br = new BufferedReader(new FileReader(arquivo))) {
             String linha;
             while ((linha = br.readLine()) != null) {
-                String[] partes = linha.split(";");
-
-                if (partes.length == 3) {
-                    String[] elemento = new String[3];
-                    elemento[0] = partes[0].trim();  // Número como String
-                    elemento[1] = partes[1].trim();  // Nome
-                    elemento[2] = partes[2].trim();  // Tipo
-
-                    try {
-                        Integer.parseInt(elemento[0]);  // Validação de número
-                        arvoreB.insere(elemento);
-                    } catch (NumberFormatException e) {
-                        System.out.println("Chave inválida: " + linha);
-                    }
-                } else {
-                    System.out.println("Formato inválido na linha: " + linha);
+                String[] elementos = linha.split(";");
+                if (elementos.length == 3) {
+                    arvoreB.insere(elementos);  // Insere o vetor de strings na árvore
                 }
             }
         } catch (IOException e) {
@@ -47,26 +34,45 @@ public class Insere_Arvore {
         }
     }
 
+    // Método para realizar a busca pela chave
+    public boolean pesquisa(int chave) {
+        return arvoreB.pesquisa(chave);
+    }
+
+    public boolean pesquisa(int chave, int Busca) {
+        return arvoreB.pesquisa(chave, Busca);
+    }
+
+    // Método para obter o valor associado à chave
+    public String[] getValorChave(int chave) {
+        return arvoreB.getValorChave(chave);
+    }
+
+    public String[] getValorChave(int chave, int busca) {
+        return arvoreB.getValorChave(chave, busca);
+    }
+
     public void imprimeArvore() {
         System.out.println("Estrutura da Árvore B:");
         arvoreB.imprime();
     }
 
-    public void pesquisa(int chave) {
-        boolean encontrado = arvoreB.pesquisa(chave);
-        if (!encontrado) {
-            System.out.println("Chave " + chave + " não encontrada.");
-        }
-    }
-
     public static void main(String[] args) {
         Insere_Arvore insereArvore = new Insere_Arvore(2);
 
-        // Arquivo de exemplo
-        String caminhoArquivo = "Dex/Dex.arb";
+        String caminhoArquivo = "Dex/Dex.arb";  // Arquivo de exemplo
         insereArvore.insereDoArquivo(caminhoArquivo);
 
         insereArvore.imprimeArvore();
-        insereArvore.pesquisa(1);
+
+        // Testando pesquisas
+        int[] chavesTeste = {10, 100, 30, 5, 17};
+        for (int chave : chavesTeste) {
+            if (insereArvore.pesquisa(chave)) {
+                System.out.println("Chave " + chave + " encontrada.");
+            } else {
+                System.out.println("Chave " + chave + " não encontrada.");
+            }
+        }
     }
 }

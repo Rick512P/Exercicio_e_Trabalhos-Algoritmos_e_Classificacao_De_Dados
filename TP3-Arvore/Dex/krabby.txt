@@ -1,0 +1,8 @@
+Krabby
+Tipo: Água
+Número: 098
+Pré: Nenhuma
+Pós: Kingler
+
+Descrição:
+Krabby, o Pokémon Caranguejo, vive em praias e margens de rios. Ele usa suas pinças para se defender e buscar alimentos. 

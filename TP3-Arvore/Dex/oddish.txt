@@ -1,0 +1,8 @@
+Oddish
+Tipo: Planta/Veneno
+Número: 043
+Pré: Nenhuma
+Pós: Gloom
+
+Descrição:
+Oddish, o Pokémon Erva, cresce melhor à noite e enterra suas raízes no solo para absorver nutrientes enquanto dorme. 

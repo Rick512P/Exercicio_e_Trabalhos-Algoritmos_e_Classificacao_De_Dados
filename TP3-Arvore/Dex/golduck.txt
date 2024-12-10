@@ -1,0 +1,8 @@
+Golduck
+Tipo: Água
+Número: 055
+Pré: Psyduck
+Pós: Nenhuma
+
+Descrição:
+Golduck, o Pokémon Pato, é um nadador veloz e ágil. Ele é frequentemente visto em rios e lagos, exibindo habilidades aquáticas incríveis. 

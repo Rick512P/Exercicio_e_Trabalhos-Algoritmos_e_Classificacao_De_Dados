@@ -1,0 +1,8 @@
+Cubone
+Tipo: Terra
+Número: 104
+Pré: Nenhuma
+Pós: Marowak
+
+Descrição:
+Cubone, o Pokémon Solitário, usa o crânio de sua mãe como capacete. Ele é conhecido por chorar à noite ao lembrar dela. 

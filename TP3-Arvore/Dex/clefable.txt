@@ -1,0 +1,8 @@
+Clefable
+Tipo: Fada
+Número: 036
+Pré: Clefairy
+Pós: Nenhuma
+
+Descrição:
+Clefable, o Pokémon Fada, é conhecido por sua natureza calma. Ele tem uma audição incrivelmente sensível e prefere viver em lugares tranquilos. 

@@ -1,0 +1,8 @@
+Nidoqueen
+Tipo: Veneno/Terra
+Número: 031
+Pré: Nidorina
+Pós: Nenhuma
+
+Descrição:
+Nidoqueen, o Pokémon Broca, é extremamente protetora e usa seu corpo resistente para proteger seus aliados e seu território. 

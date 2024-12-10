@@ -1,0 +1,8 @@
+Metapod
+Tipo: Inseto
+Número: 011
+Pré: Caterpie
+Pós: Butterfree
+
+Descrição:
+Metapod, o Pokémon Casulo, é conhecido por sua casca dura. Ele permanece imóvel enquanto prepara sua evolução para Butterfree. 

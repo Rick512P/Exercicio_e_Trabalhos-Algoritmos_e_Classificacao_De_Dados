@@ -1,0 +1,8 @@
+Spearow
+Tipo: Normal/Voador
+Número: 021
+Pré: Nenhuma
+Pós: Fearow
+
+Descrição:
+Spearow, o Pokémon Pássaro Pequeno, é muito territorial e agressivo. Ele usa seu grito estridente para alertar outros Spearow. 

@@ -1,0 +1,8 @@
+Aerodactyl
+Tipo: Rocha/Voador
+Número: 142
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Aerodactyl, o Pokémon Fóssil, é um dinossauro voador com asas grandes e afiadas. Ele é conhecido por sua velocidade e habilidades de caça. 

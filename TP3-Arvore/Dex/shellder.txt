@@ -1,0 +1,8 @@
+Shellder
+Tipo: Água
+Número: 090
+Pré: Nenhuma
+Pós: Cloyster
+
+Descrição:
+Shellder, o Pokémon Bivalve, se protege com uma concha dura. Ele fecha sua concha com força ao menor sinal de perigo. 

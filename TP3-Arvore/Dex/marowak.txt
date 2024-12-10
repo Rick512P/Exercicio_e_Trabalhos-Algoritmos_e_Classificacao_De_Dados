@@ -1,0 +1,8 @@
+Marowak
+Tipo: Terra
+Número: 105
+Pré: Cubone
+Pós: Nenhuma
+
+Descrição:
+Marowak, o Pokémon Guardião, superou sua tristeza e tornou-se um guerreiro valente. Ele utiliza um osso como arma com grande habilidade. 

@@ -1,0 +1,8 @@
+Rhyhorn
+Tipo: Terra/Rocha
+Número: 111
+Pré: Nenhuma
+Pós: Rhydon
+
+Descrição:
+Rhyhorn, o Pokémon Espinhoso, é forte, mas tem dificuldade em fazer curvas enquanto corre. Sua pele grossa o protege de danos. 

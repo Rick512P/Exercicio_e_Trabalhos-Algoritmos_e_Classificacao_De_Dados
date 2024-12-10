@@ -1,0 +1,8 @@
+Arcanine
+Tipo: Fogo
+Número: 059
+Pré: Growlithe
+Pós: Nenhuma
+
+Descrição:
+Arcanine, o Pokémon Lendário, é majestoso e incrivelmente rápido. Ele é conhecido por sua coragem e lealdade incomparáveis. 

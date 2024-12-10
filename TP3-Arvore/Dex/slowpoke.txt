@@ -1,0 +1,8 @@
+Slowpoke
+Tipo: Água/Psíquico
+Número: 079
+Pré: Nenhuma
+Pós: Slowbro
+
+Descrição:
+Slowpoke, o Pokémon Preguiçoso, é lento e muitas vezes desatento. Ele gosta de pescar com sua cauda enquanto relaxa na água. 

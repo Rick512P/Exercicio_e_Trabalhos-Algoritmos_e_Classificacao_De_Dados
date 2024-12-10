@@ -1,0 +1,8 @@
+Hypno
+Tipo: Psíquico
+Número: 097
+Pré: Drowzee
+Pós: Nenhuma
+
+Descrição:
+Hypno, o Pokémon Hipnose, usa um pêndulo para hipnotizar suas presas. Ele é misterioso e guarda muitos segredos. 

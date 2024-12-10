@@ -1,0 +1,8 @@
+Drowzee
+Tipo: Psíquico
+Número: 096
+Pré: Nenhuma
+Pós: Hypno
+
+Descrição:
+Drowzee, o Pokémon Hipnose, induz o sono em seus alvos. Ele prefere comer sonhos agradáveis e evita pesadelos. 

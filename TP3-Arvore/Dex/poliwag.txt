@@ -1,0 +1,8 @@
+Poliwag
+Tipo: Água
+Número: 060
+Pré: Nenhuma
+Pós: Poliwhirl
+
+Descrição:
+Poliwag, o Pokémon Girino, possui uma pele fina que revela seus órgãos internos. Ele nada agilmente em água doce e limpa. 

@@ -1,0 +1,8 @@
+Machamp
+Tipo: Lutador
+Número: 068
+Pré: Machoke
+Pós: Nenhuma
+
+Descrição:
+Machamp, o Pokémon Superpoderoso, possui quatro braços que lhe permitem realizar ataques rápidos e precisos. Ele é mestre em combate corpo a corpo. 

@@ -1,0 +1,8 @@
+Ivysaur
+Tipo: Planta/Veneno
+Número: 002
+Pré: Bulbasaur
+Pós: Venusaur
+
+Descrição:
+Ivysaur, o Pokémon Semente, é a evolução de Bulbasaur. A planta nas suas costas começou a florescer e emite um aroma doce quando está prestes a evoluir para Venusaur. 

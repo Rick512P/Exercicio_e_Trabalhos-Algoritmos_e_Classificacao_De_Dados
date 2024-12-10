@@ -1,0 +1,8 @@
+Meowth
+Tipo: Normal
+Número: 052
+Pré: Nenhuma
+Pós: Persian
+
+Descrição:
+Meowth, o Pokémon Gato Arranhador, é ágil e adora objetos brilhantes. Ele é conhecido por sua habilidade de produzir moedas usando seu ataque Payday. 

@@ -1,0 +1,8 @@
+Caterpie
+Tipo: Inseto
+Número: 010
+Pré: Nenhuma
+Pós: Metapod
+
+Descrição:
+Caterpie, o Pokémon Lagarta, é pequeno e inofensivo, mas pode usar um forte odor para afastar predadores. Ele evolui rapidamente para Metapod. 

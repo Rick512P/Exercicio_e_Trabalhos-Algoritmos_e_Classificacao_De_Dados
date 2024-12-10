@@ -1,0 +1,8 @@
+Pikachu
+Tipo: Elétrico
+Número: 025
+Pré: Nenhuma
+Pós: Raichu
+
+Descrição:
+Pikachu, o Pokémon Rato Elétrico, é adorado por sua aparência fofa e suas bochechas elétricas. Ele armazena energia para liberar ataques poderosos. 

@@ -1,0 +1,8 @@
+Cloyster
+Tipo: Água/Gelo
+Número: 091
+Pré: Shellder
+Pós: Nenhuma
+
+Descrição:
+Cloyster, o Pokémon Bivalve, possui uma concha quase impenetrável. Ele dispara espinhos para se defender e atacar. 

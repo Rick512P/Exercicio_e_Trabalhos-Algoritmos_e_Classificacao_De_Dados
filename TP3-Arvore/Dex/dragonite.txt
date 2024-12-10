@@ -1,0 +1,8 @@
+Dragonite
+Tipo: Dragão/Voador
+Número: 149
+Pré: Dragonair
+Pós: Nenhuma
+
+Descrição:
+Dragonite, o Pokémon Dragão, é uma evolução de Dragonair e uma das criaturas mais poderosas da região. Ele é amigável e protetor, além de ser um excelente nadador e voador. 

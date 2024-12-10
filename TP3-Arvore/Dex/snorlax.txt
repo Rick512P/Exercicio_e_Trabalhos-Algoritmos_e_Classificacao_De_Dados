@@ -1,0 +1,8 @@
+Snorlax
+Tipo: Normal
+Número: 143
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Snorlax, o Pokémon Dorminhoco, é imenso e preguiçoso. Ele passa a maior parte do tempo dormindo, mas é muito forte quando acorda. 

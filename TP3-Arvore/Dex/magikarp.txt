@@ -1,0 +1,8 @@
+Magikarp
+Tipo: Água
+Número: 129
+Pré: Nenhuma
+Pós: Gyarados
+
+Descrição:
+Magikarp, o Pokémon Peixe, é conhecido por sua fraqueza, mas também por sua capacidade de superar desafios e evoluir para Gyarados. 

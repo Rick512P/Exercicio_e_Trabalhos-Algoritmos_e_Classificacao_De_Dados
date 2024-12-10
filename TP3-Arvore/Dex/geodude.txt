@@ -1,0 +1,8 @@
+Geodude
+Tipo: Rocha/Terra
+Número: 074
+Pré: Nenhuma
+Pós: Graveler
+
+Descrição:
+Geodude, o Pokémon Rocha, é frequentemente confundido com uma pedra. Ele vive em montanhas e é incrivelmente resistente. 

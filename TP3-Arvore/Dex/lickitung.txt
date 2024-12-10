@@ -1,0 +1,8 @@
+Lickitung
+Tipo: Normal
+Número: 108
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Lickitung, o Pokémon Lambedor, possui uma língua incrivelmente longa e ágil. Ele a usa para explorar objetos e capturar comida. 

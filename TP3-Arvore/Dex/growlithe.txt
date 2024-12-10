@@ -1,0 +1,8 @@
+Growlithe
+Tipo: Fogo
+Número: 058
+Pré: Nenhuma
+Pós: Arcanine
+
+Descrição:
+Growlithe, o Pokémon Cachorro, é leal e corajoso. Ele protege seu território ferozmente e obedece seu treinador sem questionar. 

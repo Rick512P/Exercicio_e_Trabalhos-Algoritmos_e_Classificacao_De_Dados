@@ -1,0 +1,8 @@
+Mewtwo
+Tipo: Psíquico
+Número: 150
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Mewtwo, o Pokémon Geneticamente Modificado, foi criado a partir do DNA de Mew. Ele é extremamente poderoso e pode controlar a mente e o espaço ao seu redor. 

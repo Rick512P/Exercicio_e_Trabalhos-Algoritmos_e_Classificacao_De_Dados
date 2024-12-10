@@ -1,0 +1,8 @@
+Starmie
+Tipo: Água/Psíquico
+Número: 121
+Pré: Staryu
+Pós: Nenhuma
+
+Descrição:
+Starmie, o Pokémon Estrela do Mar, emite luzes misteriosas de seu núcleo colorido, que é conhecido como "joia do coração". 

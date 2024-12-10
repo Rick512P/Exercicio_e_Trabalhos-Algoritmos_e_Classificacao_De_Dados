@@ -1,0 +1,8 @@
+Nidoking
+Tipo: Veneno/Terra
+Número: 034
+Pré: Nidorino
+Pós: Nenhuma
+
+Descrição:
+Nidoking, o Pokémon Broca, usa sua força imensa e cauda poderosa para destruir obstáculos e derrotar inimigos com facilidade. 

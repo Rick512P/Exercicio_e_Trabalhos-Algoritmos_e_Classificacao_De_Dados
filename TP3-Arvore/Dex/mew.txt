@@ -1,0 +1,8 @@
+Mew
+Tipo: Psíquico
+Número: 151
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Mew, o Pokémon Misterioso, é uma das criaturas mais raras e enigmáticas. Ele possui habilidades psíquicas impressionantes e pode aprender qualquer movimento, tornando-o extremamente versátil. 

@@ -1,0 +1,8 @@
+Jigglypuff
+Tipo: Normal/Fada
+Número: 039
+Pré: Nenhuma
+Pós: Wigglytuff
+
+Descrição:
+Jigglypuff, o Pokémon Balão, é conhecido por sua voz hipnótica. Ele canta para fazer seus inimigos dormirem durante batalhas. 

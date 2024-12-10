@@ -1,0 +1,8 @@
+Exeggcute
+Tipo: Planta/Psíquico
+Número: 102
+Pré: Nenhuma
+Pós: Exeggutor
+
+Descrição:
+Exeggcute, o Pokémon Ovo, é composto por seis ovos que compartilham uma mente. Eles se protegem agrupando-se bem próximos. 

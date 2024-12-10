@@ -1,0 +1,8 @@
+Kadabra
+Tipo: Psíquico
+Número: 064
+Pré: Abra
+Pós: Alakazam
+
+Descrição:
+Kadabra, o Pokémon Psíquico, emite uma onda psíquica constante que pode causar dores de cabeça. Ele é conhecido por carregar uma colher para amplificar seus poderes. 

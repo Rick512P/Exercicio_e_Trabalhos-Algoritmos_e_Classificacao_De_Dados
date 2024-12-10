@@ -1,0 +1,8 @@
+Gyarados
+Tipo: Água/Voador
+Número: 130
+Pré: Magikarp
+Pós: Nenhuma
+
+Descrição:
+Gyarados, o Pokémon Atroz, é feroz e destrutivo. Sua fúria é lendária e o torna temido em batalhas. 

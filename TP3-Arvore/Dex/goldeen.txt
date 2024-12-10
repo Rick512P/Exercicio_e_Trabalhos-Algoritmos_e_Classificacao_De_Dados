@@ -1,0 +1,8 @@
+Goldeen
+Tipo: Água
+Número: 118
+Pré: Nenhuma
+Pós: Seaking
+
+Descrição:
+Goldeen, o Pokémon Dourado, é gracioso e frequentemente comparado a uma dançarina. Ele utiliza seu chifre para se defender. 

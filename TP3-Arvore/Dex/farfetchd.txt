@@ -1,0 +1,8 @@
+Farfetch'd
+Tipo: Normal/Voador
+Número: 083
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Farfetch'd, o Pokémon Selvagem, carrega um talo de planta que usa como arma. Ele é astuto e valoriza muito seu talo. 

@@ -1,0 +1,8 @@
+Butterfree
+Tipo: Inseto/Voador
+Número: 012
+Pré: Metapod
+Pós: Nenhuma
+
+Descrição:
+Butterfree, o Pokémon Borboleta, é uma criatura graciosa que usa pólen de suas asas para lutar. Ele é capaz de encontrar flores a grandes distâncias. 

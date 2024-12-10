@@ -1,0 +1,8 @@
+Venonat
+Tipo: Inseto/Veneno
+Número: 048
+Pré: Nenhuma
+Pós: Venomoth
+
+Descrição:
+Venonat, o Pokémon Inseto, possui olhos grandes e sensíveis que detectam movimentos no escuro. Ele cobre o corpo com uma fina camada de veneno. 

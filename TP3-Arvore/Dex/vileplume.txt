@@ -1,0 +1,8 @@
+Vileplume
+Tipo: Planta/Veneno
+Número: 045
+Pré: Gloom
+Pós: Nenhuma
+
+Descrição:
+Vileplume, o Pokémon Flor, possui uma das maiores flores entre os Pokémon. Ele espalha esporos venenosos para se proteger e atacar. 

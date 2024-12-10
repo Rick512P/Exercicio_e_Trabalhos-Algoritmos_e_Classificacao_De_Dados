@@ -1,0 +1,8 @@
+Graveler
+Tipo: Rocha/Terra
+Número: 075
+Pré: Geodude
+Pós: Golem
+
+Descrição:
+Graveler, o Pokémon Rocha, adora descer morros rolando. Ele usa seu peso para esmagar obstáculos em seu caminho. 

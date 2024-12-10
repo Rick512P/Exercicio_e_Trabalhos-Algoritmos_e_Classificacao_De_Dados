@@ -1,0 +1,8 @@
+Onix
+Tipo: Rocha/Terra
+Número: 095
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Onix, o Pokémon Serpente de Rocha, é enorme e composto por pedras conectadas. Ele escava túneis profundos para viver. 

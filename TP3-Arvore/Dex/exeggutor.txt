@@ -1,0 +1,8 @@
+Exeggutor
+Tipo: Planta/Psíquico
+Número: 103
+Pré: Exeggcute
+Pós: Nenhuma
+
+Descrição:
+Exeggutor, o Pokémon Coco, é alto e forte. Suas cabeças trabalham juntas para lançar ataques psíquicos devastadores. 

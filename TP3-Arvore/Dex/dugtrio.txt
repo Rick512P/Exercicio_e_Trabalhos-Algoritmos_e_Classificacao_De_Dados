@@ -1,0 +1,8 @@
+Dugtrio
+Tipo: Terra
+Número: 051
+Pré: Diglett
+Pós: Nenhuma
+
+Descrição:
+Dugtrio, o Pokémon Toupeira, é formado por três Diglett que cooperam para cavar mais rapidamente. Ele é incrivelmente rápido. 

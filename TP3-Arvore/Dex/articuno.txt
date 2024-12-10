@@ -1,0 +1,8 @@
+Articuno
+Tipo: Gelo/Voador
+Número: 144
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Articuno, o Pokémon Pássaro da Gelo, é um dos três lendários de Kanto. Ele é capaz de controlar o frio e criar tempestades de neve. 

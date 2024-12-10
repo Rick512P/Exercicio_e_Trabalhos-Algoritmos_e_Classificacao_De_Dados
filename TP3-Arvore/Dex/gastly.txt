@@ -1,0 +1,8 @@
+Gastly
+Tipo: Fantasma/Veneno
+Número: 092
+Pré: Nenhuma
+Pós: Haunter
+
+Descrição:
+Gastly, o Pokémon Gasoso, é composto de gás venenoso. Ele flutua silenciosamente em busca de presas. 

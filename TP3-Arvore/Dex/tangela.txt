@@ -1,0 +1,8 @@
+Tangela
+Tipo: Planta
+Número: 114
+Pré: Nenhuma
+Pós: Nenhuma
+
+Descrição:
+Tangela, o Pokémon Videira, é coberto por vinhas azuis que crescem continuamente. Ele as utiliza para se proteger e atacar. 
