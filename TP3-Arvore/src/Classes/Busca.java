@@ -30,7 +30,7 @@ public class Busca {
         String[] no = arvore.getValorChave(chave, 1);  // Usando o método getValorChave da Insere_Arvore
 
         if (no != null) {
-            String arquivoNome = "Dex/" + no[2].trim(); // Formando o caminho para o arquivo
+            String arquivoNome = "Dex/" + no[2].trim() + ".txt"; // Formando o caminho para o arquivo
             File arquivo = new File(arquivoNome);
             if (arquivo.exists()) {
                 try (BufferedReader br = new BufferedReader(new FileReader(arquivo))) {
