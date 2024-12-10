@@ -28,7 +28,7 @@ public class Busca_Nome {
         String[] no = arvore.getValorChave(nome);  // Usando o método getValorChave da Insere_Arvore_Nome
         
         if (no != null) {
-            String arquivoNome = "../Dex/" + nome.toLowerCase() + ".txt"; // Constrói o caminho do arquivo
+            String arquivoNome = "Dex/" + nome.toLowerCase() + ".txt"; // Constrói o caminho do arquivo
             File arquivo = new File(arquivoNome);
             
             if (arquivo.exists()) {

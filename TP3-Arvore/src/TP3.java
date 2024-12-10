@@ -14,9 +14,9 @@ public class TP3 {
         insereArvoreNome.imprimeArvore(); // Deve mostrar a estrutura completa da árvore*/
         // Inicializando as árvores
         Insere_Arvore insere_Arvore = new Insere_Arvore(2);
-        insere_Arvore.insereDoArquivo("../Dex/Dex.arb");
+        insere_Arvore.insereDoArquivo("Dex/Dex.arb");
         Insere_Arvore_Nome insere_Arvore_Nome = new Insere_Arvore_Nome(2);
-        insere_Arvore_Nome.insereDoArquivo("../Dex/Dex.arb");
+        insere_Arvore_Nome.insereDoArquivo("Dex/Dex.arb");
 
         // Inicializando as buscas
         Busca busca = new Busca(insere_Arvore);
