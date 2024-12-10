@@ -1,4 +1,4 @@
-1; Bulbasaur; bulba.txt;
+1; Bulbasaur; bulbasaur.txt;
 2; Ivysaur; ivysaur.txt;
 3; Venusaur; venusaur.txt;
 4; Charmander; charmander.txt;
@@ -7,12 +7,12 @@
 7; Squirtle; squirtle.txt;
 8; Wartortle; wartortle.txt;
 9; Blastoise; blastoise.txt;
-10; Abra; abra.txt;
-11; Kadabra; kadabra.txt;
-12; Alakazam; alakazam.txt;
-13; Caterpie; caterpie.txt;
-14; Metapod; metapod.txt;
-15; Butterfree; butterfree.txt;
+10; Caterpie; caterpie.txt;
+11; Metapod; metapod.txt;
+12; Butterfree; butterfree.txt;
+13; Weedle; weedle.txt;
+14; Kakuna; kakuna.txt;
+15; Beedrill; beedrill.txt;
 16; Pidgey; pidgey.txt;
 17; Pidgeotto; pidgeotto.txt;
 18; Pidgeot; pidgeot.txt;
@@ -80,7 +80,7 @@
 80; Slowbro; slowbro.txt;
 81; Magnemite; magnemite.txt;
 82; Magneton; magneton.txt;
-83; Farfetch'd; farfetchd.txt;
+83; Farfetch’d; farfetchd.txt;
 84; Doduo; doduo.txt;
 85; Dodrio; dodrio.txt;
 86; Seel; seel.txt;
@@ -97,7 +97,7 @@
 97; Hypno; hypno.txt;
 98; Krabby; krabby.txt;
 99; Kingler; kingler.txt;
-100; Farfetch'd; gelo.txt;
+100; Voltorb; voltorb.txt;
 101; Electrode; electrode.txt;
 102; Exeggcute; exeggcute.txt;
 103; Exeggutor; exeggutor.txt;

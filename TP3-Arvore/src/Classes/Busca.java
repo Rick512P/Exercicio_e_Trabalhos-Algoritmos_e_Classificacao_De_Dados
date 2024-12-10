@@ -14,7 +14,7 @@ public class Busca {
         
     }
 
-    private void VerificaNo(int chave){
+    public void VerificaNo(int chave){
         // Realiza a busca pela chave na árvore
         if (arvore.pesquisa(chave, 1)) {
             exibirConteudoArquivo(chave);
