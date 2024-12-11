@@ -110,7 +110,7 @@ private static GrafoL lerGrafoDeArquivo(File arquivo) {
         GrafoL grafo = null;
 
         while ((linha = br.readLine()) != null) {
-            linha = linha.trim();
+            linha = linha.trim().replaceAll("[\\s.'''’]", "");
 
             // Ignora comentários
             if (linha.startsWith("c")) {

@@ -13,7 +13,7 @@ public class Insere_Arvore {
     }
 
     // Método para ler o arquivo e inserir na árvore
-    public void insereDoArquivo(String caminhoArquivo) {
+    public void insereDoArquivo(String caminhoArquivo, int tipo) {
         File arquivo = new File(caminhoArquivo);
 
         if (!arquivo.exists()) {
@@ -26,7 +26,7 @@ public class Insere_Arvore {
             while ((linha = br.readLine()) != null) {
                 String[] elementos = linha.split(";");
                 if (elementos.length == 3) {
-                    arvoreB.insere(elementos);  // Insere o vetor de strings na árvore
+                    arvoreB.insere(elementos, tipo);  // Insere o vetor de strings na árvore
                 }
             }
         } catch (IOException e) {
@@ -43,12 +43,20 @@ public class Insere_Arvore {
         return arvoreB.pesquisa(chave, Busca);
     }
 
+    public boolean pesquisa(String chave, int Busca) {
+        return arvoreB.pesquisa(chave, Busca);
+    }
+
     // Método para obter o valor associado à chave
     public String[] getValorChave(int chave) {
         return arvoreB.getValorChave(chave);
     }
 
     public String[] getValorChave(int chave, int busca) {
+        return arvoreB.getValorChave(chave, busca);
+    }
+
+    public String[] getValorChave(String chave, int busca) {
         return arvoreB.getValorChave(chave, busca);
     }
 
@@ -61,7 +69,7 @@ public class Insere_Arvore {
         Insere_Arvore insereArvore = new Insere_Arvore(2);
 
         String caminhoArquivo = "../Dex/Dex.arb";  // Arquivo de exemplo
-        insereArvore.insereDoArquivo(caminhoArquivo);
+        insereArvore.insereDoArquivo(caminhoArquivo, 0);
 
         insereArvore.imprimeArvore();
 

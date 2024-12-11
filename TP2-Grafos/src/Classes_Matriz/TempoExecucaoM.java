@@ -110,7 +110,7 @@ public class TempoExecucaoM {
             GrafoM grafo = null;
 
             while ((linha = br.readLine()) != null) {
-                linha = linha.trim();
+                linha = linha.trim().replaceAll("[\\s.'''’]", "");
 
                 // Ignora comentários
                 if (linha.startsWith("c")) {
