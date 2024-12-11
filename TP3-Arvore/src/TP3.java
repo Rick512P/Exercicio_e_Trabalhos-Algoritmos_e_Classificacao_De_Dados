@@ -1,4 +1,6 @@
+import java.net.URI;
 import java.util.Scanner;
+import java.awt.Desktop;
 
 import Classes.Busca;
 import Classes.Insere_Arvore;
@@ -7,12 +9,6 @@ import Classes.Busca_Nome;
 
 public class TP3 {
     public static void main(String[] args) {
-        /*Insere_Arvore_Nome insereArvoreNome = new Insere_Arvore_Nome(2);
-        insereArvoreNome.insereDoArquivo("../Dex/Dex.arb");
-
-        System.out.println("Estrutura da Árvore B por Nome:");
-        insereArvoreNome.imprimeArvore(); // Deve mostrar a estrutura completa da árvore*/
-        // Inicializando as árvores
         Insere_Arvore insere_Arvore = new Insere_Arvore(2);
         insere_Arvore.insereDoArquivo("Dex/Dex.arb");
         Insere_Arvore_Nome insere_Arvore_Nome = new Insere_Arvore_Nome(2);
@@ -34,21 +30,49 @@ public class TP3 {
                 System.out.println("Encerrando o programa...");
                 break;
             }
-
+            boolean encontrado = false; // Inicializa a variável encontrado
             // Verifica se a entrada é um número
             if (entrada.matches("\\d+")) { // Regex para verificar se a string é composta apenas por dígitos
                 int id = Integer.parseInt(entrada); // Converte para número
                 System.out.println("");
-                busca.VerificaNo(id);
+                encontrado = busca.VerificaNo(id);
                 System.out.println("");
+
+                if (encontrado) {
+                    // Constrói o URL com base no ID
+                    String baseURL = "https://www.pokemon.com/br/pokedex/";
+                    String pokemonName = busca.getPokemonNameById(id);
+                    String fullURL = baseURL + pokemonName.toLowerCase();
+                    WebUtils.openWebPage(fullURL);
+                }
+
             } else {
                 // Caso contrário, trata como nome
                 System.out.println("");
                 buscaNome.VerificaNo(entrada);
                 System.out.println("");
+
+                if (encontrado) {
+                    // Constrói o URL com base no nome
+                    String baseURL = "https://www.pokemon.com/br/pokedex/";
+                    String pokemonName = entrada.toLowerCase(); // Certifique-se de que o nome esteja em minúsculas
+                    String fullURL = baseURL + pokemonName;
+                    WebUtils.openWebPage(fullURL);
+                }
             }
         }
 
         scanner.close(); // Fecha o Scanner para liberar recursos*/
     }
+
+    public class WebUtils {
+    public static void openWebPage(String url) {
+        try {
+            Desktop desktop = Desktop.getDesktop();
+            desktop.browse(new URI(url));
+        } catch (Exception e) {
+            System.out.println("Não foi possível abrir o navegador: " + e.getMessage());
+        }
+    }
+}
 }

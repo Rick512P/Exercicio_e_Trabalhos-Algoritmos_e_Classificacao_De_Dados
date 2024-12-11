@@ -14,12 +14,14 @@ public class Busca {
         
     }
 
-    public void VerificaNo(int chave){
+    public boolean VerificaNo(int chave){
         // Realiza a busca pela chave na árvore
         if (arvore.pesquisa(chave, 1)) {
             exibirConteudoArquivo(chave);
+            return true;
         } else {
             System.out.println("Chave " + chave + " não encontrada.");
+            return false;
         }
     }
     // Método para exibir o conteúdo do arquivo baseado no valor chave
@@ -49,6 +51,33 @@ public class Busca {
         }
         
     }
+
+    public String getPokemonNameById(int chave) {
+        // Obtendo o valor da chave na árvore
+        String[] no = arvore.getValorChave(chave, 1); // Usando o método getValorChave da Insere_Arvore
+    
+        if (no != null) {
+            String arquivoNome = "Dex/" + no[2].trim() + ".txt"; // Formando o caminho para o arquivo
+            File arquivo = new File(arquivoNome);
+            if (arquivo.exists()) {
+                try (BufferedReader br = new BufferedReader(new FileReader(arquivo))) {
+                    String linha = br.readLine(); // Supondo que o nome do Pokémon está na primeira linha
+                    if (linha != null && !linha.isEmpty()) {
+                        return linha.trim(); // Retorna o nome do Pokémon
+                    }
+                } catch (IOException e) {
+                    System.out.println("Erro ao ler o arquivo: " + e.getMessage());
+                }
+            } else {
+                System.out.println("Arquivo não encontrado: " + arquivoNome);
+            }
+        } else {
+            System.out.println("Chave não encontrada na árvore.");
+        }
+    
+        return null; // Retorna null se o nome não for encontrado
+    }
+    
 
     public static void main(String[] args) {
         Insere_Arvore insereArvore = new Insere_Arvore(2);
