@@ -4,19 +4,14 @@ import java.awt.Desktop;
 
 import Classes.Busca;
 import Classes.Insere_Arvore;
-import Classes.Insere_Arvore_Nome;
-import Classes.Busca_Nome;
 
 public class TP3 {
     public static void main(String[] args) {
         Insere_Arvore insere_Arvore = new Insere_Arvore(2);
         insere_Arvore.insereDoArquivo("Dex/Dex.arb");
-        Insere_Arvore_Nome insere_Arvore_Nome = new Insere_Arvore_Nome(2);
-        insere_Arvore_Nome.insereDoArquivo("Dex/Dex.arb");
 
         // Inicializando as buscas
         Busca busca = new Busca(insere_Arvore);
-        Busca_Nome buscaNome = new Busca_Nome(insere_Arvore_Nome);
 
         Scanner scanner = new Scanner(System.in); // Declaração do Scanner
         String entrada;
@@ -47,7 +42,7 @@ public class TP3 {
                 }
 
             } else {
-                // Caso contrário, trata como nome
+                /* Caso contrário, trata como nome
                 System.out.println("");
                 buscaNome.VerificaNo(entrada);
                 System.out.println("");
@@ -59,7 +54,7 @@ public class TP3 {
                     String fullURL = baseURL + pokemonName;
                     WebUtils.openWebPage(fullURL);
                 }
-            }
+            */}
         }
 
         scanner.close(); // Fecha o Scanner para liberar recursos*/
