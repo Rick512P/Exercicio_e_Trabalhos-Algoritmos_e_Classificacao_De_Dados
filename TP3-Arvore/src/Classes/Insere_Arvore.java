@@ -34,6 +34,27 @@ public class Insere_Arvore {
         }
     }
 
+    public void insereDoArquivo(String caminhoArquivo, int tipo, int TP3) {
+        File arquivo = new File(caminhoArquivo);
+
+        if (!arquivo.exists()) {
+            System.out.println("Arquivo não encontrado: " + caminhoArquivo);
+            return;
+        }
+
+        try (BufferedReader br = new BufferedReader(new FileReader(arquivo))) {
+            String linha;
+            while ((linha = br.readLine()) != null) {
+                String[] elementos = linha.split(";");
+                if (elementos.length == 3) {
+                    arvoreB.insere(elementos, tipo, TP3);  // Insere o vetor de strings na árvore
+                }
+            }
+        } catch (IOException e) {
+            System.out.println("Erro ao ler o arquivo: " + e.getMessage());
+        }
+    }
+
     // Método para realizar a busca pela chave
     public boolean pesquisa(int chave) {
         return arvoreB.pesquisa(chave);

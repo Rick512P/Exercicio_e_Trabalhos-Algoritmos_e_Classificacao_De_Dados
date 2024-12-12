@@ -9,8 +9,8 @@ public class TP3 {
     public static void main(String[] args) {
         Insere_Arvore insere_Arvore = new Insere_Arvore(2);
         Insere_Arvore insere_ArvoreAlfa = new Insere_Arvore(2);
-        insere_Arvore.insereDoArquivo("Dex/Dex.arb", 0);
-        insere_ArvoreAlfa.insereDoArquivo("Dex/Dex.arb", 1);
+        insere_Arvore.insereDoArquivo("Dex/Dex.arb", 0, 0);
+        insere_ArvoreAlfa.insereDoArquivo("Dex/Dex.arb", 1, 0);
 
         // Inicializando as buscas
         Busca busca = new Busca(insere_Arvore);

@@ -129,6 +129,20 @@ public class ArvoreB {
 
     }
 
+    public void insere(String[] elemento, int tipo, int TP3) {
+        No r = this.raiz;
+            if (r.chaves.size() == 2 * grauMinimo - 1) {
+                No novo = new No(false);
+                this.raiz = novo;
+                novo.filhos.add(r);
+                divideFilho(novo, 0, r);
+                insereNaoCheio(novo, elemento, tipo);
+            } else {
+                insereNaoCheio(r, elemento, tipo);
+            }
+
+    }
+
     public void insere(String[] elemento, int tipo) {
         No r = this.raiz;
             if (r.chaves.size() == 2 * grauMinimo - 1) {
