@@ -24,7 +24,8 @@ public class TP3 {
         
             entrada = scanner.nextLine().trim().replaceAll("[\\s.'''’]", ""); // Lê a entrada do usuário
         
-            insere_ArvoreAlfa.imprimeArvore();
+            //insere_ArvoreAlfa.imprimeArvore();
+            
             if (entrada.equals("0")) {
                 System.out.println("Encerrando o programa...");
                 break;

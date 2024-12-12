@@ -92,18 +92,21 @@ public class ArvoreB {
 
     private No pesquisa(No no, String chave, int Busca) {
         int i = 0;
-        while (i < no.chaves.size() && chave.trim().compareToIgnoreCase(no.chaves.get(i)[1].trim()) > 0) {
+        // Normaliza a chave de busca (remove caracteres especiais e ignora maiúsculas/minúsculas)
+        String chaveNormalizada = chave.trim().replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
+    
+        while (i < no.chaves.size() && chaveNormalizada.compareTo(no.chaves.get(i)[1].trim().replaceAll("[^a-zA-Z0-9]", "").toLowerCase()) > 0) {
             i++;
         }
-        
-        // Corrigido: Verifica se o elemento na posição atual corresponde à chave
-        if (i < no.chaves.size() && chave.trim().compareToIgnoreCase(no.chaves.get(i)[1].trim()) == 0) {
+    
+        if (i < no.chaves.size() && chaveNormalizada.compareTo(no.chaves.get(i)[1].trim().replaceAll("[^a-zA-Z0-9]", "").toLowerCase()) == 0) {
             return no;
         }
-        
+    
         if (no.folha) {
             return null;
         }
+    
         return pesquisa(no.filhos.get(i), chave, Busca);
     }
     
@@ -296,8 +299,9 @@ public class ArvoreB {
     public String[] getValorChave(String chave, int Busca) {
         No no = pesquisa(this.raiz, chave, Busca);  // Localiza o nó
         if (no != null) {
+            String chaveNormalizada = chave.trim().replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
             for (String[] chaveValor : no.chaves) {
-                if (chave.trim().compareToIgnoreCase(chaveValor[1].trim()) == 0) {
+                if (chaveNormalizada.equals(chaveValor[1].trim().replaceAll("[^a-zA-Z0-9]", "").toLowerCase())) {
                     return chaveValor;  // Retorna o vetor de 3 elementos
                 }
             }
