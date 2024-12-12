@@ -92,13 +92,19 @@ public class ArvoreB {
 
     private No pesquisa(No no, String chave, int Busca) {
         int i = 0;
-        while (i < no.chaves.size() && chave.trim().replaceAll("[\\s.'''’]", "").compareToIgnoreCase(no.chaves.get(i)[1].trim().replaceAll("[\\s.'''’]", "")) > 0) i++;
+        while (i < no.chaves.size() && chave.trim().compareToIgnoreCase(no.chaves.get(i)[1].trim()) > 0) {
+            i++;
+        }
         
-        if (i < no.chaves.size() && chave.trim().replaceAll("[\\s.'''’]", "").compareToIgnoreCase(no.chaves.get(i)[1].trim().replaceAll("[\\s.'''’]", "")) == 0) return no;
+        // Corrigido: Verifica se o elemento na posição atual corresponde à chave
+        if (i < no.chaves.size() && chave.trim().compareToIgnoreCase(no.chaves.get(i)[1].trim()) == 0) {
+            return no;
+        }
         
-        if (no.folha) return null;
+        if (no.folha) {
+            return null;
+        }
         return pesquisa(no.filhos.get(i), chave, Busca);
-
     }
     
 
@@ -114,6 +120,10 @@ public class ArvoreB {
         } else {
             insereNaoCheio(r, elemento);
         }
+        System.out.println("Inserindo chave: " + Arrays.toString(elemento));
+        System.out.println("Árvore após a inserção:");
+        imprime();
+
     }
 
     public void insere(String[] elemento, int tipo) {
@@ -127,6 +137,10 @@ public class ArvoreB {
             } else {
                 insereNaoCheio(r, elemento, tipo);
             }
+            System.out.println("Inserindo chave: " + Arrays.toString(elemento));
+            System.out.println("Árvore após a inserção:");
+            imprime();
+
     }
 
     private void insereNaoCheio(No no, String[] elemento) {
@@ -222,6 +236,7 @@ public class ArvoreB {
     }
 
     private void divideFilho(No pai, int i, No filho) {
+        //System.out.println("Dividindo o nó: " + noParaString(filho));
         No novo = new No(filho.folha);
         int meio = grauMinimo - 1;
 
@@ -235,6 +250,8 @@ public class ArvoreB {
 
         pai.filhos.add(i + 1, novo);
         pai.chaves.add(i, filho.chaves.remove(grauMinimo - 1));
+        //System.out.println("Novo nó criado: " + noParaString(novo));
+        //System.out.println("Pai atualizado: " + noParaString(pai));
     }
 
     // Exibe a árvore
@@ -243,7 +260,7 @@ public class ArvoreB {
     }
 
     private void imprime(No no, int nivel) {
-        System.out.println("Nível " + nivel + " " + no.chaves);
+        System.out.println("Nível " + nivel + " " + noParaString(no));
 
         if (!no.folha) {
             for (No filho : no.filhos)
@@ -253,7 +270,7 @@ public class ArvoreB {
 
     // Método getValorChave
     public String[] getValorChave(int chave) {
-        No no = pesquisa(this.raiz, chave);  // Localiza o nó
+        No no = pesquisa(this.raiz, chave   );  // Localiza o nó
         if (no != null) {
             for (String[] chaveValor : no.chaves) {
                 if (Integer.parseInt(chaveValor[0]) == chave) {
@@ -280,13 +297,31 @@ public class ArvoreB {
         No no = pesquisa(this.raiz, chave, Busca);  // Localiza o nó
         if (no != null) {
             for (String[] chaveValor : no.chaves) {
-                if (chave.compareTo(chaveValor[1]) > 0) {
+                if (chave.trim().compareToIgnoreCase(chaveValor[1].trim()) == 0) {
                     return chaveValor;  // Retorna o vetor de 3 elementos
                 }
             }
         }
         return null;  // Se a chave não for encontrada
     }
+
+    // Para printar corretamente:
+    private String noParaString(No no) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        for (String[] chave : no.chaves) {
+            sb.append(Arrays.toString(chave)).append(", ");
+        }
+        if (!no.chaves.isEmpty()) {
+            sb.setLength(sb.length() - 2); // Remove a última vírgula
+        }
+        sb.append("]");
+        return sb.toString();
+    }
+
+    
+    
+    
     public static void main(String[] args) {
         ArvoreB arvore = new ArvoreB(2);
 

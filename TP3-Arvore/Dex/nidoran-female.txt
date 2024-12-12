@@ -1,0 +1,8 @@
+Nidoran Female
+Tipo: Veneno
+Número: 029
+Pré: Nenhuma
+Pós: Nidorina
+
+Descrição:
+Nidoran Female, o Pokémon Agulha Venenosa, é pequeno, mas possui um veneno poderoso. Suas orelhas são altamente sensíveis a sons. 

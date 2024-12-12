@@ -21,9 +21,10 @@ public class TP3 {
 
         while (true) {
             System.out.print("Entre com o número ou nome do Pokémon (ou 0 para sair): ");
-            
+        
             entrada = scanner.nextLine().trim().replaceAll("[\\s.'''’]", ""); // Lê a entrada do usuário
-            
+        
+            insere_ArvoreAlfa.imprimeArvore();
             if (entrada.equals("0")) {
                 System.out.println("Encerrando o programa...");
                 break;
@@ -40,7 +41,7 @@ public class TP3 {
                 if (Integer.parseInt(encontrado[0]) == 0) {
                     // Constrói o URL com base no ID
                     String baseURL = "https://www.pokemon.com/br/pokedex/";
-                    String fullURL = baseURL + encontrado[1].trim().replaceAll("[\\s.'''’]", "");
+                    String fullURL = baseURL + encontrado[1].trim().replaceAll("[\\s.'''’^´`]", "");
                     WebUtils.openWebPage(fullURL);
                 }
 
@@ -53,7 +54,7 @@ public class TP3 {
                 if (Integer.parseInt(encontrado[0]) == 0) {
                     // Constrói o URL com base no nome
                     String baseURL = "https://www.pokemon.com/br/pokedex/";
-                    String fullURL = baseURL + encontrado[1].trim().replaceAll("[\\s.'''’]", "");
+                    String fullURL = baseURL + encontrado[1].trim().replaceAll("[\\s.'''’`^'`´]", "");
                     WebUtils.openWebPage(fullURL);
                 }
             }
